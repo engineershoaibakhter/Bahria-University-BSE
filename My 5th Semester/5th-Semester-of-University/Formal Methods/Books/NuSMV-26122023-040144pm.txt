@@ -1,0 +1,14 @@
+NuSMV
+C:\Users\HP_pc>cd\
+C:\>d:
+D:\>cd D:\Formal Methods\Software\NuSMV-2.6.0-win64\NuSMV-2.6.0-win64\bin
+D:\Formal Methods\Software\NuSMV-2.6.0-win64\NuSMV-2.6.0-win64\bin>NuSMV -int
+NuSMV > read_model -i intro.smv
+NuSMV > flatten_hierarchy
+NuSMV > encode_variables
+NuSMV > build_model
+NuSMV > pick_state -i 
+NuSMV > simulate -i -k 3
+NuSMV > print_reachable_states -v
+NuSMV > check_ltlspec -p "G(request=FALSE)"
+

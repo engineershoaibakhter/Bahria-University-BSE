@@ -1,0 +1,220 @@
+<!-- checkValidity() -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        #cgpa {
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+    <input id="cgpa" type="number" placeholder="Enter CGPA" min="0.0" max="4.0" step="0.1"
+        required>
+    <button onclick="validateInput()">OK</button>    
+    <script>
+        function validateInput() {
+            var cgpa = document.getElementById("cgpa");
+            if (!cgpa.checkValidity()) {//true if cgpa is valid
+                cgpa.style.border = "solid red";
+            } else {
+                cgpa.style.border = "solid green";
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+<!-- validationMessage -->
+<!DOCTYPE html>
+<html>
+<body>
+    <input id="txtName" type="text" required />
+    <label id="label01"></label><br />
+    <input id="dt" type="date" min="2018-01-01" />
+    <label id="label02"></label><br />
+    <input type="button" value="OK" onclick="onClicked()" /><br />
+    <script>
+        function onClicked() {
+            var label01 = document.getElementById("label01");
+            var label02 = document.getElementById("label02");
+
+            label01.innerHTML = document.getElementById("txtName").validationMessage;
+            label02.innerHTML = document.getElementById("dt").validationMessage;
+        }
+    </script>
+</body>
+</html>
+
+
+<!-- 
+    validationMessage   
+    validity.customError
+ -->
+<!DOCTYPE html>
+<html>
+<body>
+    <input id="txtName" type="text" required />
+    <input type="button" value="OK" onclick="onClicked()" /><br />
+    <script>
+        function onClicked() {
+            var txtName = document.getElementById("txtName");
+
+            document.write("validationMessage: " + txtName.validationMessage + "<br/>");
+            document.write("customError: " + txtName.validity.customError + "<br/>");
+
+            txtName.setCustomValidity("You must enter your name!");
+
+            document.write("validationMessage: " + txtName.validationMessage + "<br/>");
+            document.write("customError: " + txtName.validity.customError + "<br/>");
+        }
+    </script>
+</body>
+</html>
+
+
+<!-- 
+    willValidate 
+    for submittable elements it is true
+-->
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="p1">It is just a paragraph!</p>
+    <input id="i1" type="text" /><br />
+    <input id="i2" type="text" readonly/><br />
+    <input id="i3" type="text" disabled/><br />
+    <input id="i4" type="file" /><br />
+    <input id="i5" type="button" value="OK" /><br />
+    <input id="i6" type="submit" /><br />
+    <input id="i7" type="reset" /><br />
+    <script>
+        document.write(document.getElementById("p1").willValidate + "<br/>");
+        document.write(document.getElementById("i1").willValidate + "<br/>");
+        document.write(document.getElementById("i2").willValidate + "<br/>");
+        document.write(document.getElementById("i3").willValidate + "<br/>");
+        document.write(document.getElementById("i4").willValidate + "<br/>");
+        document.write(document.getElementById("i5").willValidate + "<br/>");
+        document.write(document.getElementById("i6").willValidate + "<br/>");
+        document.write(document.getElementById("i7").willValidate + "<br/>");
+    </script>
+</body>
+</html>
+
+
+<!-- patternMismatch -->
+<!DOCTYPE html>
+<html>
+<body>
+    <input id="i1" pattern="[0-9]{2}" title="Two digit country code" />
+    <input type="button" value="OK" onclick="onClick()"/>
+    <p id="output"></p>
+
+    <script>
+        function onClick() {
+            if (document.getElementById('i1').validity.patternMismatch)
+                document.getElementById("output").innerHTML = "Invalid input";
+            else
+                document.getElementById("output").innerHTML = "Valid input";
+        }
+    </script>
+</body>
+</html>
+
+
+
+<!-- 
+rangeOverflow 
+similarly rangeUnderflow works on min value
+-->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <input id="i1" type="number" max="2" />
+    <input type="button" value="OK" onclick="onClick()"/>
+    <p id="output"></p>
+
+    <script>
+        function onClick() {
+            if (document.getElementById('i1').validity.rangeOverflow)
+                document.getElementById("output").innerHTML = "Overflow";
+            else
+                document.getElementById("output").innerHTML = "";
+        }
+    </script>
+</body>
+</html>
+
+
+
+<!-- stepMismatch -->
+<!DOCTYPE html>
+<html>
+<body>
+    <input id="i1" type="number" step="2" value="4" />
+    <input type="button" value="OK" onclick="onClick()"/>
+    <p id="output"></p>
+
+    <script>
+        function onClick() {
+            if (document.getElementById('i1').validity.stepMismatch)
+                document.getElementById("output").innerHTML = "Step Mismatched!";
+            else
+                document.getElementById("output").innerHTML = "";
+        }
+    </script>
+</body>
+</html>
+
+
+<!-- typeMismatch -->
+<!DOCTYPE html>
+<html>
+<body>
+    <input id="foo" type="url" value="http://foo.com" />
+    <input id="bar" type="url" value="foo" />
+
+    <input id="foo2" type="email" value="foo@foo.com" />
+    <input id="bar2" type="number" value="abc" />
+
+    <input type="button" value="OK" onclick="onClick()" />
+    <p id="output"></p>
+
+    <script>
+        function onClick() {
+            var str = "";
+            str += document.getElementById('foo').validity.typeMismatch + "<br/>";
+            str += document.getElementById('bar').validity.typeMismatch + "<br/>";
+            str += document.getElementById('foo2').validity.typeMismatch + "<br/>";
+            str += document.getElementById('bar2').validity.typeMismatch + "<br/>";
+            document.getElementById("output").innerHTML = str;
+        }
+    </script>
+</body>
+</html>
+
+
+valueMissing: true if the element has a required attribute but has no value
+
+
+novalidate
+The boolean novalidate attribute can be applied to form nodes. When present this attribute indicates that the form's data should not be validated when it is submitted.
+<form novalidate>
+<input type="text" required />
+<input type="submit" value="Submit" />
+</form>
+Because the above form has the novalidate attribute it will submit even though it contains an empty required input.
+
+
+formnovalidate
+The boolean formnovalidate attribute can be applied to button and input nodes 
+to prevent form validation. For example:
+<form>
+<input type="text" required />
+<input type="submit" value="Validate" />
+<input type="submit" value="Do NOT Validate" formnovalidate />
+</form>
+
