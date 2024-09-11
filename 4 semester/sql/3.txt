@@ -1,0 +1,14 @@
+select Products.ProductName,Suppliers.ContactName from Products join Suppliers on Products.SupplierID = Suppliers.SupplierID 
+where Suppliers.ContactName not like '%Dirk%' 
+AND Products.ProductName like '_______';
+
+select Orders.OrderID,Orders.OrderDate,Employees.EmployeeID,Employees.FirstName,Employees.LastName from Orders join Employees on Orders.EmployeeID = Employees.EmployeeID
+
+select City from Suppliers intersect select city from Customers;
+
+SELECT City FROM Customers
+UNION ALL
+SELECT City FROM Suppliers
+ORDER BY City;
+
+select ContactName,City,Country from Customers Union select ContactName,City,Country from Suppliers ;

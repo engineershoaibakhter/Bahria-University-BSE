@@ -1,0 +1,16 @@
+32 bit instruction ==>       32bit ==> 8 bit/1 byte opcode ,                    24 bit address
+16 bit instruction ==> 2^4 = 16bit ==> 4 bit opcode ,                           12 bit address
+16 bit instruction ==> 2^4 = 16bit ==> 4 bit opcode ,                           12 bit address
+
+2^24 = 16777216 bytes or /1024/1024 = 16MB memory can be directly addressed
+
+64 bit instruction                 ==> 4 bytes or 4 * 8 = 32 bits opcode ,      32 bit address
+32 bit instruction                 ==> 2 bytes or 2 * 8 = 16 bits opcode ,      16 bit address
+32 bit instruction                 ==> 2 bytes or         16 bits opcode ,      16 bit address
+
+2^32 = 4294967296 bytes or 4GB memory can be directly addressed 
+
+
+
+
+

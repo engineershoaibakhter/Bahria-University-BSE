@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Facabook</title>
+    <style type="text/css">body{
+        background-color: #f0f2f5;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    button{
+        width: 400px;
+        height:50px;
+        margin-top: 15px;
+        border-radius: 7.5px;
+        color: white;
+        font-size: large;
+        font-weight: bold;
+        background-color: #0db45e;
+        border: none;
+    }
+    p{
+        text-decoration: none;
+        color:#143ccf;
+        font-weight: bold;
+        margin-left: 125px;
+    }    
+        
+    input::placeholder{
+        color:#9094a9;
+    }
+    hr{
+        border: 1px solid gainsboro;
+    }    
+    </style>
+</head>
+<script type="text/javascript">
+   
+    function btnclick() {
+        var username=document.getElementById("user").value;
+        alert("Welcome "+ username)
+    }
+</script>
+
+<body>
+
+
+    <div>
+    <p>
+        facebook
+    </p>
+</div>
+
+<div>
+    <form class="i" method="post">
+        <fieldset>
+            <legend>Login Page</legend>
+            <label for="username">
+                Username: <input type="text" name="username" id="user" required placeholder="Username"> <br>
+            </label> <br>
+            <label for="email">
+                Email : <input type="email" name="email" id="email" required placeholder="Email"> <br>
+            </label> <br>
+            <label for="password">
+                Password: <input type="password" name="password" id="password" required placeholder="Password"> <br>
+            </label> <br>
+            <button onclick="btnclick()">Login</button>
+        </fieldset>
+        
+    </form>
+</div>
+
+
+
+</body>
+</html>

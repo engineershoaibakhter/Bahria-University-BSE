@@ -1,0 +1,2640 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.020 --> 00:00:04.090 align:start position:0%
+ 
+you
+
+00:00:04.090 --> 00:00:04.100 align:start position:0%
+ 
+ 
+
+00:00:04.100 --> 00:00:06.880 align:start position:0%
+ 
+welcome<00:00:04.910><c> to</c><00:00:05.120><c> the</c><00:00:05.270><c> second</c><00:00:05.870><c> installment</c><00:00:06.020><c> of</c><00:00:06.680><c> the</c>
+
+00:00:06.880 --> 00:00:06.890 align:start position:0%
+welcome to the second installment of the
+ 
+
+00:00:06.890 --> 00:00:13.350 align:start position:0%
+welcome to the second installment of the
+C<00:00:07.160><c> to</c><00:00:07.460><c> assembly</c><00:00:07.840><c> introduction</c><00:00:08.840><c> to</c><00:00:09.020><c> MIPS</c>
+
+00:00:13.350 --> 00:00:13.360 align:start position:0%
+ 
+ 
+
+00:00:13.360 --> 00:00:16.240 align:start position:0%
+ 
+memory<00:00:14.360><c> is</c><00:00:14.570><c> one</c><00:00:14.870><c> of</c><00:00:15.020><c> the</c><00:00:15.170><c> three</c><00:00:15.469><c> components</c><00:00:16.100><c> of</c>
+
+00:00:16.240 --> 00:00:16.250 align:start position:0%
+memory is one of the three components of
+ 
+
+00:00:16.250 --> 00:00:20.859 align:start position:0%
+memory is one of the three components of
+a<00:00:16.880><c> computer</c><00:00:17.510><c> and</c><00:00:18.130><c> it's</c><00:00:19.130><c> the</c><00:00:19.570><c> opponent</c><00:00:20.570><c> that</c>
+
+00:00:20.859 --> 00:00:20.869 align:start position:0%
+a computer and it's the opponent that
+ 
+
+00:00:20.869 --> 00:00:24.099 align:start position:0%
+a computer and it's the opponent that
+stores<00:00:21.320><c> the</c><00:00:21.830><c> code</c><00:00:22.099><c> and</c><00:00:22.340><c> data</c><00:00:22.550><c> for</c><00:00:23.269><c> a</c><00:00:23.300><c> program</c>
+
+00:00:24.099 --> 00:00:24.109 align:start position:0%
+stores the code and data for a program
+ 
+
+00:00:24.109 --> 00:00:28.200 align:start position:0%
+stores the code and data for a program
+while<00:00:25.150><c> which</c><00:00:26.150><c> the</c><00:00:26.330><c> processor</c><00:00:26.949><c> fetches</c><00:00:27.949><c> and</c>
+
+00:00:28.200 --> 00:00:28.210 align:start position:0%
+while which the processor fetches and
+ 
+
+00:00:28.210 --> 00:00:32.800 align:start position:0%
+while which the processor fetches and
+loads<00:00:29.210><c> and</c><00:00:29.420><c> stores</c><00:00:29.720><c> in</c><00:00:30.199><c> order</c><00:00:30.589><c> to</c><00:00:31.090><c> get</c><00:00:32.090><c> data</c><00:00:32.390><c> in</c>
+
+00:00:32.800 --> 00:00:32.810 align:start position:0%
+loads and stores in order to get data in
+ 
+
+00:00:32.810 --> 00:00:35.170 align:start position:0%
+loads and stores in order to get data in
+and<00:00:33.020><c> out</c><00:00:33.140><c> of</c><00:00:33.320><c> registers</c><00:00:33.890><c> and</c><00:00:34.220><c> to</c><00:00:34.910><c> move</c>
+
+00:00:35.170 --> 00:00:35.180 align:start position:0%
+and out of registers and to move
+ 
+
+00:00:35.180 --> 00:00:37.270 align:start position:0%
+and out of registers and to move
+instructions<00:00:35.870><c> into</c><00:00:36.230><c> the</c><00:00:36.620><c> processor</c><00:00:37.129><c> for</c>
+
+00:00:37.270 --> 00:00:37.280 align:start position:0%
+instructions into the processor for
+ 
+
+00:00:37.280 --> 00:00:40.420 align:start position:0%
+instructions into the processor for
+execution<00:00:38.469><c> memory</c><00:00:39.469><c> is</c><00:00:39.620><c> byte</c><00:00:39.920><c> addressed</c>
+
+00:00:40.420 --> 00:00:40.430 align:start position:0%
+execution memory is byte addressed
+ 
+
+00:00:40.430 --> 00:00:43.689 align:start position:0%
+execution memory is byte addressed
+meaning<00:00:41.329><c> that</c><00:00:41.539><c> the</c><00:00:42.230><c> indexes</c><00:00:43.070><c> in</c><00:00:43.219><c> memory</c><00:00:43.520><c> are</c>
+
+00:00:43.689 --> 00:00:43.699 align:start position:0%
+meaning that the indexes in memory are
+ 
+
+00:00:43.699 --> 00:00:46.810 align:start position:0%
+meaning that the indexes in memory are
+all<00:00:43.879><c> numbers</c><00:00:44.629><c> of</c><00:00:44.870><c> fights</c><00:00:45.430><c> each</c><00:00:46.430><c> byte</c>
+
+00:00:46.810 --> 00:00:46.820 align:start position:0%
+all numbers of fights each byte
+ 
+
+00:00:46.820 --> 00:00:48.880 align:start position:0%
+all numbers of fights each byte
+containing<00:00:47.390><c> of</c><00:00:47.480><c> course</c><00:00:47.719><c> eight</c><00:00:48.020><c> bits</c><00:00:48.500><c> of</c><00:00:48.680><c> data</c>
+
+00:00:48.880 --> 00:00:48.890 align:start position:0%
+containing of course eight bits of data
+ 
+
+00:00:48.890 --> 00:00:53.770 align:start position:0%
+containing of course eight bits of data
+or<00:00:49.430><c> instruction</c><00:00:50.980><c> in</c><00:00:51.980><c> MIPS</c><00:00:52.250><c> memory</c><00:00:52.850><c> is</c><00:00:53.120><c> word</c>
+
+00:00:53.770 --> 00:00:53.780 align:start position:0%
+or instruction in MIPS memory is word
+ 
+
+00:00:53.780 --> 00:01:00.430 align:start position:0%
+or instruction in MIPS memory is word
+aligned<00:00:54.379><c> and</c><00:00:55.030><c> big-endian</c><00:00:58.570><c> word</c><00:00:59.570><c> is</c><00:00:59.960><c> the</c><00:01:00.260><c> size</c>
+
+00:01:00.430 --> 00:01:00.440 align:start position:0%
+aligned and big-endian word is the size
+ 
+
+00:01:00.440 --> 00:01:02.950 align:start position:0%
+aligned and big-endian word is the size
+of<00:01:00.680><c> an</c><00:01:00.859><c> instruction</c><00:01:01.550><c> in</c><00:01:01.760><c> the</c><00:01:01.850><c> processor</c><00:01:02.480><c> this</c>
+
+00:01:02.950 --> 00:01:02.960 align:start position:0%
+of an instruction in the processor this
+ 
+
+00:01:02.960 --> 00:01:07.380 align:start position:0%
+of an instruction in the processor this
+is<00:01:03.019><c> used</c><00:01:03.440><c> aurorae</c><00:01:04.129><c> fights</c><00:01:04.610><c> depending</c><00:01:05.239><c> on</c><00:01:05.360><c> the</c>
+
+00:01:07.380 --> 00:01:07.390 align:start position:0%
+is used aurorae fights depending on the
+ 
+
+00:01:07.390 --> 00:01:10.359 align:start position:0%
+is used aurorae fights depending on the
+architecture<00:01:08.390><c> for</c><00:01:08.840><c> example</c><00:01:08.960><c> uses</c><00:01:09.830><c> for</c><00:01:10.100><c> byte</c>
+
+00:01:10.359 --> 00:01:10.369 align:start position:0%
+architecture for example uses for byte
+ 
+
+00:01:10.369 --> 00:01:15.090 align:start position:0%
+architecture for example uses for byte
+words<00:01:10.700><c> a</c><00:01:11.380><c> 64-bit</c><00:01:12.380><c> processor</c><00:01:13.220><c> uses</c><00:01:13.850><c> 8</c><00:01:14.090><c> 5</c><00:01:14.390><c> words</c>
+
+00:01:15.090 --> 00:01:15.100 align:start position:0%
+words a 64-bit processor uses 8 5 words
+ 
+
+00:01:15.100 --> 00:01:18.340 align:start position:0%
+words a 64-bit processor uses 8 5 words
+typically<00:01:16.100><c> the</c><00:01:16.790><c> size</c><00:01:17.030><c> of</c><00:01:17.509><c> the</c><00:01:17.780><c> word</c><00:01:17.990><c> is</c>
+
+00:01:18.340 --> 00:01:18.350 align:start position:0%
+typically the size of the word is
+ 
+
+00:01:18.350 --> 00:01:19.719 align:start position:0%
+typically the size of the word is
+matched<00:01:18.799><c> to</c><00:01:18.950><c> the</c><00:01:19.100><c> size</c><00:01:19.340><c> of</c><00:01:19.579><c> the</c>
+
+00:01:19.719 --> 00:01:19.729 align:start position:0%
+matched to the size of the
+ 
+
+00:01:19.729 --> 00:01:23.050 align:start position:0%
+matched to the size of the
+general-purpose<00:01:20.060><c> registers</c><00:01:22.060><c> weird</c>
+
+00:01:23.050 --> 00:01:23.060 align:start position:0%
+general-purpose registers weird
+ 
+
+00:01:23.060 --> 00:01:24.850 align:start position:0%
+general-purpose registers weird
+alignment<00:01:23.720><c> means</c><00:01:23.900><c> that</c><00:01:24.320><c> every</c><00:01:24.619><c> memory</c>
+
+00:01:24.850 --> 00:01:24.860 align:start position:0%
+alignment means that every memory
+ 
+
+00:01:24.860 --> 00:01:27.520 align:start position:0%
+alignment means that every memory
+address<00:01:25.369><c> starts</c><00:01:25.970><c> at</c><00:01:26.360><c> a</c><00:01:26.420><c> multiple</c><00:01:26.840><c> of</c><00:01:27.200><c> the</c><00:01:27.350><c> word</c>
+
+00:01:27.520 --> 00:01:27.530 align:start position:0%
+address starts at a multiple of the word
+ 
+
+00:01:27.530 --> 00:01:32.429 align:start position:0%
+address starts at a multiple of the word
+size<00:01:27.860><c> so</c><00:01:28.790><c> in</c><00:01:29.200><c> mips32</c><00:01:30.729><c> every</c><00:01:31.729><c> memory</c><00:01:32.090><c> access</c>
+
+00:01:32.429 --> 00:01:32.439 align:start position:0%
+size so in mips32 every memory access
+ 
+
+00:01:32.439 --> 00:01:36.149 align:start position:0%
+size so in mips32 every memory access
+has<00:01:33.439><c> to</c><00:01:33.710><c> start</c><00:01:33.979><c> at</c><00:01:34.220><c> a</c><00:01:34.280><c> multiple</c><00:01:34.759><c> of</c><00:01:34.790><c> four</c>
+
+00:01:36.149 --> 00:01:36.159 align:start position:0%
+has to start at a multiple of four
+ 
+
+00:01:36.159 --> 00:01:39.580 align:start position:0%
+has to start at a multiple of four
+big-endian<00:01:37.159><c> means</c><00:01:37.970><c> that</c><00:01:38.329><c> when</c><00:01:39.110><c> you</c><00:01:39.229><c> look</c><00:01:39.439><c> at</c>
+
+00:01:39.580 --> 00:01:39.590 align:start position:0%
+big-endian means that when you look at
+ 
+
+00:01:39.590 --> 00:01:42.399 align:start position:0%
+big-endian means that when you look at
+the<00:01:39.740><c> order</c><00:01:40.159><c> of</c><00:01:40.189><c> the</c><00:01:40.399><c> bytes</c><00:01:40.820><c> in</c><00:01:41.180><c> the</c><00:01:41.240><c> word</c><00:01:41.750><c> the</c>
+
+00:01:42.399 --> 00:01:42.409 align:start position:0%
+the order of the bytes in the word the
+ 
+
+00:01:42.409 --> 00:01:44.170 align:start position:0%
+the order of the bytes in the word the
+most<00:01:42.680><c> significant</c><00:01:43.250><c> byte</c><00:01:43.399><c> starts</c><00:01:43.939><c> at</c><00:01:44.090><c> the</c>
+
+00:01:44.170 --> 00:01:44.180 align:start position:0%
+most significant byte starts at the
+ 
+
+00:01:44.180 --> 00:01:47.499 align:start position:0%
+most significant byte starts at the
+smallest<00:01:44.570><c> address</c><00:01:45.079><c> in</c><00:01:45.259><c> memory</c><00:01:46.329><c> the</c><00:01:47.329><c> most</c>
+
+00:01:47.499 --> 00:01:47.509 align:start position:0%
+smallest address in memory the most
+ 
+
+00:01:47.509 --> 00:01:49.539 align:start position:0%
+smallest address in memory the most
+significant<00:01:48.259><c> byte</c><00:01:48.409><c> being</c><00:01:49.009><c> the</c><00:01:49.219><c> bits</c><00:01:49.430><c> that</c>
+
+00:01:49.539 --> 00:01:49.549 align:start position:0%
+significant byte being the bits that
+ 
+
+00:01:49.549 --> 00:01:52.420 align:start position:0%
+significant byte being the bits that
+contribute<00:01:50.210><c> to</c><00:01:50.390><c> the</c><00:01:50.509><c> larger</c><00:01:50.930><c> portion</c><00:01:51.140><c> of</c><00:01:51.560><c> the</c>
+
+00:01:52.420 --> 00:01:52.430 align:start position:0%
+contribute to the larger portion of the
+ 
+
+00:01:52.430 --> 00:01:55.840 align:start position:0%
+contribute to the larger portion of the
+value<00:01:52.790><c> of</c><00:01:53.180><c> the</c><00:01:53.390><c> word</c><00:01:54.399><c> alternatives</c><00:01:55.399><c> to</c><00:01:55.520><c> begin</c>
+
+00:01:55.840 --> 00:01:55.850 align:start position:0%
+value of the word alternatives to begin
+ 
+
+00:01:55.850 --> 00:01:58.260 align:start position:0%
+value of the word alternatives to begin
+the<00:01:55.969><c> inning</c><00:01:56.090><c> group</c><00:01:56.390><c> little-endian</c><00:01:56.810><c> advisee</c>
+
+00:01:58.260 --> 00:01:58.270 align:start position:0%
+the inning group little-endian advisee
+ 
+
+00:01:58.270 --> 00:02:01.060 align:start position:0%
+the inning group little-endian advisee
+as<00:01:59.270><c> an</c><00:01:59.390><c> example</c><00:01:59.869><c> let's</c><00:02:00.079><c> consider</c><00:02:00.229><c> storing</c><00:02:00.710><c> the</c>
+
+00:02:01.060 --> 00:02:01.070 align:start position:0%
+as an example let's consider storing the
+ 
+
+00:02:01.070 --> 00:02:04.420 align:start position:0%
+as an example let's consider storing the
+32-bit<00:02:01.630><c> hexadecimal</c><00:02:02.630><c> value</c><00:02:03.020><c> shown</c><00:02:03.710><c> here</c><00:02:04.039><c> for</c>
+
+00:02:04.420 --> 00:02:04.430 align:start position:0%
+32-bit hexadecimal value shown here for
+ 
+
+00:02:04.430 --> 00:02:07.899 align:start position:0%
+32-bit hexadecimal value shown here for
+a<00:02:04.460><c> 3</c><00:02:04.909><c> B</c><00:02:05.090><c> 3</c><00:02:05.119><c> C</c><00:02:05.689><c> 1</c><00:02:05.930><c> D</c><00:02:06.140><c> into</c><00:02:07.039><c> the</c><00:02:07.130><c> memory</c><00:02:07.340><c> add</c><00:02:07.670><c> an</c>
+
+00:02:07.899 --> 00:02:07.909 align:start position:0%
+a 3 B 3 C 1 D into the memory add an
+ 
+
+00:02:07.909 --> 00:02:12.800 align:start position:0%
+a 3 B 3 C 1 D into the memory add an
+address<00:02:08.149><c> starting</c><00:02:08.720><c> at</c><00:02:08.990><c> hexadecimal</c><00:02:10.030><c> 1000</c>
+
+00:02:12.800 --> 00:02:12.810 align:start position:0%
+address starting at hexadecimal 1000
+ 
+
+00:02:12.810 --> 00:02:17.100 align:start position:0%
+address starting at hexadecimal 1000
+in<00:02:13.810><c> a</c><00:02:13.989><c> big</c><00:02:14.319><c> endian</c><00:02:14.920><c> architecture</c><00:02:15.599><c> the</c><00:02:16.599><c> first</c>
+
+00:02:17.100 --> 00:02:17.110 align:start position:0%
+in a big endian architecture the first
+ 
+
+00:02:17.110 --> 00:02:20.190 align:start position:0%
+in a big endian architecture the first
+fight<00:02:17.560><c> of</c><00:02:17.769><c> the</c><00:02:18.370><c> word</c><00:02:18.819><c> will</c><00:02:19.239><c> be</c><00:02:19.360><c> stored</c><00:02:19.689><c> at</c><00:02:20.019><c> the</c>
+
+00:02:20.190 --> 00:02:20.200 align:start position:0%
+fight of the word will be stored at the
+ 
+
+00:02:20.200 --> 00:02:22.530 align:start position:0%
+fight of the word will be stored at the
+smaller<00:02:20.530><c> address</c><00:02:21.010><c> a</c><00:02:21.310><c> smaller</c><00:02:21.790><c> address</c><00:02:22.239><c> being</c>
+
+00:02:22.530 --> 00:02:22.540 align:start position:0%
+smaller address a smaller address being
+ 
+
+00:02:22.540 --> 00:02:26.339 align:start position:0%
+smaller address a smaller address being
+the<00:02:22.810><c> starting</c><00:02:23.560><c> address</c><00:02:24.180><c> so</c><00:02:25.180><c> here</c><00:02:25.540><c> the</c><00:02:26.110><c> first</c>
+
+00:02:26.339 --> 00:02:26.349 align:start position:0%
+the starting address so here the first
+ 
+
+00:02:26.349 --> 00:02:30.990 align:start position:0%
+the starting address so here the first
+byte<00:02:26.799><c> is</c><00:02:27.189><c> stored</c><00:02:28.180><c> at</c><00:02:28.480><c> the</c><00:02:28.510><c> memory</c><00:02:29.470><c> address</c><00:02:30.000><c> in</c>
+
+00:02:30.990 --> 00:02:31.000 align:start position:0%
+byte is stored at the memory address in
+ 
+
+00:02:31.000 --> 00:02:34.860 align:start position:0%
+byte is stored at the memory address in
+the<00:02:31.329><c> word</c><00:02:31.510><c> zero</c><00:02:32.379><c> thousand</c><00:02:33.370><c> the</c><00:02:34.000><c> first</c><00:02:34.360><c> byte</c><00:02:34.599><c> of</c>
+
+00:02:34.860 --> 00:02:34.870 align:start position:0%
+the word zero thousand the first byte of
+ 
+
+00:02:34.870 --> 00:02:39.210 align:start position:0%
+the word zero thousand the first byte of
+the<00:02:35.170><c> word</c><00:02:35.500><c> is</c><00:02:35.739><c> for</c><00:02:35.980><c> a</c><00:02:36.480><c> in</c><00:02:37.480><c> hexadecimal</c><00:02:38.220><c> two</c>
+
+00:02:39.210 --> 00:02:39.220 align:start position:0%
+the word is for a in hexadecimal two
+ 
+
+00:02:39.220 --> 00:02:42.390 align:start position:0%
+the word is for a in hexadecimal two
+characters<00:02:40.030><c> of</c><00:02:40.329><c> the</c><00:02:40.510><c> hexadecimal</c><00:02:40.870><c> value</c><00:02:41.739><c> is</c><00:02:41.950><c> a</c>
+
+00:02:42.390 --> 00:02:42.400 align:start position:0%
+characters of the hexadecimal value is a
+ 
+
+00:02:42.400 --> 00:02:44.610 align:start position:0%
+characters of the hexadecimal value is a
+bite<00:02:42.730><c> because</c><00:02:43.540><c> each</c><00:02:43.780><c> character</c><00:02:44.379><c> of</c>
+
+00:02:44.610 --> 00:02:44.620 align:start position:0%
+bite because each character of
+ 
+
+00:02:44.620 --> 00:02:47.430 align:start position:0%
+bite because each character of
+hexadecimal<00:02:45.430><c> is</c><00:02:45.549><c> four</c><00:02:45.909><c> bits</c><00:02:46.180><c> also</c><00:02:46.900><c> called</c><00:02:47.319><c> a</c>
+
+00:02:47.430 --> 00:02:47.440 align:start position:0%
+hexadecimal is four bits also called a
+ 
+
+00:02:47.440 --> 00:02:50.660 align:start position:0%
+hexadecimal is four bits also called a
+nibble<00:02:48.030><c> half</c><00:02:49.030><c> of</c><00:02:49.359><c> a</c><00:02:49.510><c> byte</c>
+
+00:02:50.660 --> 00:02:50.670 align:start position:0%
+nibble half of a byte
+ 
+
+00:02:50.670 --> 00:02:53.849 align:start position:0%
+nibble half of a byte
+so<00:02:51.670><c> here</c><00:02:52.000><c> the</c><00:02:52.569><c> hexadecimal</c><00:02:52.930><c> values</c><00:02:53.620><c> are</c>
+
+00:02:53.849 --> 00:02:53.859 align:start position:0%
+so here the hexadecimal values are
+ 
+
+00:02:53.859 --> 00:02:57.300 align:start position:0%
+so here the hexadecimal values are
+stored<00:02:54.129><c> as</c><00:02:54.459><c> you</c><00:02:55.120><c> look</c><00:02:55.510><c> at</c><00:02:55.690><c> the</c><00:02:56.290><c> memory</c><00:02:56.650><c> from</c>
+
+00:02:57.300 --> 00:02:57.310 align:start position:0%
+stored as you look at the memory from
+ 
+
+00:02:57.310 --> 00:03:00.149 align:start position:0%
+stored as you look at the memory from
+smaller<00:02:57.639><c> to</c><00:02:57.849><c> larger</c><00:02:57.879><c> in</c><00:02:58.540><c> the</c><00:02:59.109><c> order</c><00:02:59.500><c> they</c>
+
+00:03:00.149 --> 00:03:00.159 align:start position:0%
+smaller to larger in the order they
+ 
+
+00:03:00.159 --> 00:03:03.449 align:start position:0%
+smaller to larger in the order they
+appear<00:03:00.190><c> in</c><00:03:00.879><c> the</c><00:03:01.030><c> word</c><00:03:01.209><c> so</c><00:03:01.840><c> we</c><00:03:01.959><c> have</c><00:03:02.079><c> 4a</c><00:03:02.459><c> address</c>
+
+00:03:03.449 --> 00:03:03.459 align:start position:0%
+appear in the word so we have 4a address
+ 
+
+00:03:03.459 --> 00:03:11.220 align:start position:0%
+appear in the word so we have 4a address
+1003<00:03:04.389><c> be</c><00:03:04.599><c> at</c><00:03:04.780><c> address</c><00:03:05.049><c> 1001</c><00:03:05.799><c> and</c><00:03:06.069><c> so</c><00:03:06.760><c> forth</c><00:03:10.230><c> in</c>
+
+00:03:11.220 --> 00:03:11.230 align:start position:0%
+1003 be at address 1001 and so forth in
+ 
+
+00:03:11.230 --> 00:03:14.250 align:start position:0%
+1003 be at address 1001 and so forth in
+a<00:03:11.290><c> little</c><00:03:11.590><c> endian</c><00:03:11.950><c> architecture</c><00:03:12.510><c> so</c><00:03:13.510><c> here</c><00:03:13.720><c> 1</c><00:03:14.049><c> D</c>
+
+00:03:14.250 --> 00:03:14.260 align:start position:0%
+a little endian architecture so here 1 D
+ 
+
+00:03:14.260 --> 00:03:17.250 align:start position:0%
+a little endian architecture so here 1 D
+is<00:03:14.590><c> store</c><00:03:15.099><c> that</c><00:03:15.250><c> one</c><00:03:15.870><c> and</c><00:03:16.870><c> then</c><00:03:17.049><c> the</c><00:03:17.230><c> next</c>
+
+00:03:17.250 --> 00:03:17.260 align:start position:0%
+is store that one and then the next
+ 
+
+00:03:17.260 --> 00:03:20.280 align:start position:0%
+is store that one and then the next
+least<00:03:17.889><c> significant</c><00:03:18.579><c> fight</c><00:03:18.819><c> to</c><00:03:19.419><c> see</c><00:03:19.720><c> it's</c>
+
+00:03:20.280 --> 00:03:20.290 align:start position:0%
+least significant fight to see it's
+ 
+
+00:03:20.290 --> 00:03:24.689 align:start position:0%
+least significant fight to see it's
+stored<00:03:20.590><c> at</c><00:03:20.680><c> 1001</c><00:03:21.459><c> then</c><00:03:22.090><c> 3</c><00:03:22.419><c> be</c><00:03:22.629><c> at</c><00:03:23.049><c> 1002</c><00:03:23.859><c> and</c><00:03:24.069><c> for</c>
+
+00:03:24.689 --> 00:03:24.699 align:start position:0%
+stored at 1001 then 3 be at 1002 and for
+ 
+
+00:03:24.699 --> 00:03:31.680 align:start position:0%
+stored at 1001 then 3 be at 1002 and for
+a<00:03:25.199><c> 1000</c><00:03:30.000><c> let's</c><00:03:31.000><c> consider</c><00:03:31.329><c> an</c>
+
+00:03:31.680 --> 00:03:31.690 align:start position:0%
+a 1000 let's consider an
+ 
+
+00:03:31.690 --> 00:03:35.520 align:start position:0%
+a 1000 let's consider an
+how<00:03:32.020><c> arrays</c><00:03:32.560><c> are</c><00:03:32.920><c> laid</c><00:03:33.130><c> out</c><00:03:33.250><c> in</c><00:03:33.400><c> memory</c><00:03:34.530><c> arrays</c>
+
+00:03:35.520 --> 00:03:35.530 align:start position:0%
+how arrays are laid out in memory arrays
+ 
+
+00:03:35.530 --> 00:03:37.590 align:start position:0%
+how arrays are laid out in memory arrays
+are<00:03:35.800><c> put</c><00:03:36.070><c> in</c><00:03:36.190><c> memory</c><00:03:36.550><c> in</c><00:03:36.790><c> the</c><00:03:36.970><c> order</c><00:03:37.240><c> in</c><00:03:37.390><c> which</c>
+
+00:03:37.590 --> 00:03:37.600 align:start position:0%
+are put in memory in the order in which
+ 
+
+00:03:37.600 --> 00:03:41.220 align:start position:0%
+are put in memory in the order in which
+the<00:03:37.990><c> array</c><00:03:38.620><c> elements</c><00:03:39.130><c> appear</c><00:03:40.110><c> here's</c><00:03:41.110><c> an</c>
+
+00:03:41.220 --> 00:03:41.230 align:start position:0%
+the array elements appear here's an
+ 
+
+00:03:41.230 --> 00:03:43.860 align:start position:0%
+the array elements appear here's an
+integer<00:03:41.500><c> array</c><00:03:42.090><c> getting</c><00:03:43.090><c> five</c><00:03:43.300><c> elements</c>
+
+00:03:43.860 --> 00:03:43.870 align:start position:0%
+integer array getting five elements
+ 
+
+00:03:43.870 --> 00:03:45.450 align:start position:0%
+integer array getting five elements
+declared<00:03:44.290><c> and</c><00:03:44.440><c> see</c><00:03:44.560><c> you've</c><00:03:44.710><c> initialized</c><00:03:45.010><c> to</c>
+
+00:03:45.450 --> 00:03:45.460 align:start position:0%
+declared and see you've initialized to
+ 
+
+00:03:45.460 --> 00:03:55.350 align:start position:0%
+declared and see you've initialized to
+these<00:03:45.610><c> values</c><00:03:46.000><c> 313</c><00:03:50.940><c> the</c><00:03:51.940><c> address</c><00:03:52.840><c> of</c><00:03:53.200><c> a</c><00:03:54.130><c> 0</c><00:03:55.060><c> is</c>
+
+00:03:55.350 --> 00:03:55.360 align:start position:0%
+these values 313 the address of a 0 is
+ 
+
+00:03:55.360 --> 00:03:59.670 align:start position:0%
+these values 313 the address of a 0 is
+the<00:03:55.990><c> starting</c><00:03:56.470><c> address</c><00:03:56.590><c> of</c><00:03:56.830><c> the</c><00:03:57.160><c> array</c><00:03:58.680><c> this</c>
+
+00:03:59.670 --> 00:03:59.680 align:start position:0%
+the starting address of the array this
+ 
+
+00:03:59.680 --> 00:04:03.660 align:start position:0%
+the starting address of the array this
+notation<00:04:00.180><c> ampersand</c><00:04:01.680><c> address</c><00:04:02.680><c> of</c><00:04:02.920><c> and</c><00:04:03.280><c> C</c>
+
+00:04:03.660 --> 00:04:03.670 align:start position:0%
+notation ampersand address of and C
+ 
+
+00:04:03.670 --> 00:04:07.080 align:start position:0%
+notation ampersand address of and C
+language<00:04:03.930><c> the</c><00:04:04.930><c> address</c><00:04:05.380><c> of</c><00:04:05.590><c> the</c><00:04:05.890><c> 0</c><00:04:06.190><c> index</c><00:04:06.880><c> of</c>
+
+00:04:07.080 --> 00:04:07.090 align:start position:0%
+language the address of the 0 index of
+ 
+
+00:04:07.090 --> 00:04:09.960 align:start position:0%
+language the address of the 0 index of
+the<00:04:07.210><c> array</c><00:04:07.240><c> is</c><00:04:07.870><c> the</c><00:04:08.050><c> start</c><00:04:08.350><c> of</c><00:04:08.470><c> the</c><00:04:08.590><c> array</c><00:04:08.970><c> so</c>
+
+00:04:09.960 --> 00:04:09.970 align:start position:0%
+the array is the start of the array so
+ 
+
+00:04:09.970 --> 00:04:14.040 align:start position:0%
+the array is the start of the array so
+the<00:04:10.210><c> 0</c><00:04:10.510><c> with</c><00:04:10.690><c> value</c><00:04:11.580><c> 313</c><00:04:12.580><c> appears</c><00:04:13.300><c> in</c><00:04:13.690><c> the</c><00:04:13.810><c> word</c>
+
+00:04:14.040 --> 00:04:14.050 align:start position:0%
+the 0 with value 313 appears in the word
+ 
+
+00:04:14.050 --> 00:04:16.470 align:start position:0%
+the 0 with value 313 appears in the word
+starting<00:04:14.980><c> at</c><00:04:15.100><c> the</c><00:04:15.250><c> address</c><00:04:15.730><c> of</c><00:04:15.910><c> the</c><00:04:16.060><c> 0</c><00:04:16.330><c> at</c>
+
+00:04:16.470 --> 00:04:16.480 align:start position:0%
+starting at the address of the 0 at
+ 
+
+00:04:16.480 --> 00:04:17.880 align:start position:0%
+starting at the address of the 0 at
+index<00:04:16.840><c> out</c><00:04:17.080><c> here</c><00:04:17.260><c> right</c>
+
+00:04:17.880 --> 00:04:17.890 align:start position:0%
+index out here right
+ 
+
+00:04:17.890 --> 00:04:21.150 align:start position:0%
+index out here right
+the<00:04:18.790><c> next</c><00:04:19.120><c> word</c><00:04:19.359><c> of</c><00:04:19.630><c> the</c><00:04:19.750><c> array</c><00:04:20.019><c> starts</c><00:04:20.920><c> at</c>
+
+00:04:21.150 --> 00:04:21.160 align:start position:0%
+the next word of the array starts at
+ 
+
+00:04:21.160 --> 00:04:24.750 align:start position:0%
+the next word of the array starts at
+address<00:04:22.320><c> at</c><00:04:23.320><c> the</c><00:04:23.500><c> address</c><00:04:23.830><c> of</c><00:04:24.070><c> the</c><00:04:24.310><c> zeroeth</c>
+
+00:04:24.750 --> 00:04:24.760 align:start position:0%
+address at the address of the zeroeth
+ 
+
+00:04:24.760 --> 00:04:30.090 align:start position:0%
+address at the address of the zeroeth
+index<00:04:25.420><c> +</c><00:04:26.020><c> 4</c><00:04:27.000><c> 4</c><00:04:28.000><c> +</c><00:04:28.210><c> 4</c><00:04:28.510><c> is</c><00:04:28.540><c> because</c><00:04:29.050><c> in</c><00:04:29.620><c> the</c><00:04:29.860><c> C</c>
+
+00:04:30.090 --> 00:04:30.100 align:start position:0%
+index + 4 4 + 4 is because in the C
+ 
+
+00:04:30.100 --> 00:04:32.970 align:start position:0%
+index + 4 4 + 4 is because in the C
+language<00:04:30.400><c> in</c><00:04:31.000><c> a</c><00:04:31.150><c> 32-bit</c><00:04:31.810><c> architecture</c><00:04:32.530><c> in</c><00:04:32.830><c> the</c>
+
+00:04:32.970 --> 00:04:32.980 align:start position:0%
+language in a 32-bit architecture in the
+ 
+
+00:04:32.980 --> 00:04:36.630 align:start position:0%
+language in a 32-bit architecture in the
+C<00:04:33.130><c> language</c><00:04:33.370><c> the</c><00:04:33.940><c> int</c><00:04:34.360><c> type</c><00:04:34.840><c> is</c><00:04:35.140><c> a</c><00:04:35.590><c> word</c><00:04:36.100><c> sized</c>
+
+00:04:36.630 --> 00:04:36.640 align:start position:0%
+C language the int type is a word sized
+ 
+
+00:04:36.640 --> 00:04:45.600 align:start position:0%
+C language the int type is a word sized
+element<00:04:37.600><c> which</c><00:04:38.020><c> means</c><00:04:38.260><c> it's</c><00:04:38.440><c> 4</c><00:04:38.740><c> bytes</c>
+
+00:04:45.600 --> 00:04:45.610 align:start position:0%
+ 
+ 
+
+00:04:45.610 --> 00:04:48.570 align:start position:0%
+ 
+that<00:04:45.969><c> start</c><00:04:46.629><c> of</c><00:04:46.870><c> the</c><00:04:47.259><c> array</c><00:04:47.680><c> a</c><00:04:47.710><c> is</c><00:04:48.280><c> in</c>
+
+00:04:48.570 --> 00:04:48.580 align:start position:0%
+that start of the array a is in
+ 
+
+00:04:48.580 --> 00:04:50.939 align:start position:0%
+that start of the array a is in
+hexadecimal<00:04:48.909><c> one</c><00:04:49.810><c> bill</c><00:04:50.020><c> zero</c><00:04:50.409><c> one</c><00:04:50.650><c> zero</c><00:04:50.680><c> zero</c>
+
+00:04:50.939 --> 00:04:50.949 align:start position:0%
+hexadecimal one bill zero one zero zero
+ 
+
+00:04:50.949 --> 00:04:51.959 align:start position:0%
+hexadecimal one bill zero one zero zero
+zero
+
+00:04:51.959 --> 00:04:51.969 align:start position:0%
+zero
+ 
+
+00:04:51.969 --> 00:04:54.689 align:start position:0%
+zero
+I<00:04:52.000><c> mean</c><00:04:52.990><c> that</c><00:04:53.319><c> the</c><00:04:53.680><c> address</c><00:04:54.039><c> of</c><00:04:54.280><c> the</c><00:04:54.430><c> zero</c>
+
+00:04:54.689 --> 00:04:54.699 align:start position:0%
+I mean that the address of the zero
+ 
+
+00:04:54.699 --> 00:04:56.999 align:start position:0%
+I mean that the address of the zero
+element<00:04:55.180><c> of</c><00:04:55.719><c> the</c><00:04:55.870><c> array</c><00:04:56.110><c> will</c><00:04:56.439><c> be</c><00:04:56.620><c> that</c><00:04:56.800><c> number</c>
+
+00:04:56.999 --> 00:04:57.009 align:start position:0%
+element of the array will be that number
+ 
+
+00:04:57.009 --> 00:05:02.939 align:start position:0%
+element of the array will be that number
+one<00:04:57.370><c> zero</c><00:04:57.639><c> zero</c><00:04:57.729><c> one</c><00:04:57.969><c> zero</c><00:04:58.479><c> zero</c><00:04:59.199><c> zero</c><00:05:01.889><c> so</c><00:05:02.889><c> we</c>
+
+00:05:02.939 --> 00:05:02.949 align:start position:0%
+one zero zero one zero zero zero so we
+ 
+
+00:05:02.949 --> 00:05:06.589 align:start position:0%
+one zero zero one zero zero zero so we
+can<00:05:02.979><c> replace</c><00:05:03.219><c> our</c><00:05:03.729><c> notation</c><00:05:04.419><c> here</c><00:05:04.960><c> with</c><00:05:05.319><c> that</c>
+
+00:05:06.589 --> 00:05:06.599 align:start position:0%
+can replace our notation here with that
+ 
+
+00:05:06.599 --> 00:05:09.990 align:start position:0%
+can replace our notation here with that
+Goulet<00:05:07.599><c> element</c><00:05:08.050><c> start</c><00:05:08.349><c> one</c><00:05:09.280><c> zero</c><00:05:09.310><c> zero</c><00:05:09.550><c> one</c>
+
+00:05:09.990 --> 00:05:10.000 align:start position:0%
+Goulet element start one zero zero one
+ 
+
+00:05:10.000 --> 00:05:11.640 align:start position:0%
+Goulet element start one zero zero one
+zero<00:05:10.270><c> zero</c><00:05:10.539><c> zero</c><00:05:11.110><c> zero</c>
+
+00:05:11.640 --> 00:05:11.650 align:start position:0%
+zero zero zero zero
+ 
+
+00:05:11.650 --> 00:05:13.950 align:start position:0%
+zero zero zero zero
+the<00:05:12.460><c> next</c><00:05:12.759><c> element</c><00:05:12.879><c> starts</c><00:05:13.479><c> at</c><00:05:13.629><c> that</c><00:05:13.750><c> number</c>
+
+00:05:13.950 --> 00:05:13.960 align:start position:0%
+the next element starts at that number
+ 
+
+00:05:13.960 --> 00:05:18.360 align:start position:0%
+the next element starts at that number
+plus<00:05:14.469><c> four</c><00:05:16.710><c> you</c><00:05:17.710><c> can</c><00:05:17.800><c> see</c><00:05:17.979><c> that</c><00:05:18.159><c> each</c>
+
+00:05:18.360 --> 00:05:18.370 align:start position:0%
+plus four you can see that each
+ 
+
+00:05:18.370 --> 00:05:22.709 align:start position:0%
+plus four you can see that each
+subsequent<00:05:19.409><c> word</c><00:05:20.409><c> start</c><00:05:21.099><c> set</c><00:05:21.340><c> or</c><00:05:22.029><c> bytes</c>
+
+00:05:22.709 --> 00:05:22.719 align:start position:0%
+subsequent word start set or bytes
+ 
+
+00:05:22.719 --> 00:05:33.089 align:start position:0%
+subsequent word start set or bytes
+offset<00:05:23.590><c> previous</c><00:05:24.479><c> zero</c><00:05:25.479><c> four</c><00:05:25.810><c> eight</c><00:05:25.840><c> c</c><00:05:27.599><c> 0</c><00:05:32.099><c> now</c>
+
+00:05:33.089 --> 00:05:33.099 align:start position:0%
+offset previous zero four eight c 0 now
+ 
+
+00:05:33.099 --> 00:05:35.189 align:start position:0%
+offset previous zero four eight c 0 now
+the<00:05:33.159><c> indian</c><00:05:33.639><c> s</c><00:05:33.789><c> of</c><00:05:33.939><c> the</c><00:05:34.060><c> architecture</c><00:05:34.810><c> those</c>
+
+00:05:35.189 --> 00:05:35.199 align:start position:0%
+the indian s of the architecture those
+ 
+
+00:05:35.199 --> 00:05:37.350 align:start position:0%
+the indian s of the architecture those
+four<00:05:35.590><c> bytes</c><00:05:35.770><c> may</c><00:05:36.129><c> appear</c><00:05:36.550><c> in</c><00:05:36.580><c> different</c><00:05:36.909><c> order</c>
+
+00:05:37.350 --> 00:05:37.360 align:start position:0%
+four bytes may appear in different order
+ 
+
+00:05:37.360 --> 00:05:39.980 align:start position:0%
+four bytes may appear in different order
+within<00:05:37.569><c> the</c><00:05:37.750><c> word</c><00:05:38.050><c> starting</c><00:05:38.680><c> at</c><00:05:38.800><c> the</c><00:05:38.919><c> address</c>
+
+00:05:39.980 --> 00:05:39.990 align:start position:0%
+within the word starting at the address
+ 
+
+00:05:39.990 --> 00:05:43.860 align:start position:0%
+within the word starting at the address
+let's<00:05:40.990><c> consider</c><00:05:41.319><c> array</c><00:05:41.770><c> index</c><00:05:42.159><c> 0</c><00:05:42.539><c> epi</c><00:05:43.539><c> address</c>
+
+00:05:43.860 --> 00:05:43.870 align:start position:0%
+let's consider array index 0 epi address
+ 
+
+00:05:43.870 --> 00:05:46.909 align:start position:0%
+let's consider array index 0 epi address
+1<00:05:44.169><c> 0</c><00:05:44.439><c> 0</c><00:05:44.710><c> 1</c><00:05:44.949><c> 0</c><00:05:45.250><c> 0</c><00:05:45.729><c> 0</c><00:05:46.029><c> 0</c>
+
+00:05:46.909 --> 00:05:46.919 align:start position:0%
+1 0 0 1 0 0 0 0
+ 
+
+00:05:46.919 --> 00:05:49.379 align:start position:0%
+1 0 0 1 0 0 0 0
+when<00:05:47.919><c> we</c><00:05:48.069><c> load</c><00:05:48.250><c> and</c><00:05:48.460><c> store</c><00:05:48.639><c> the</c><00:05:48.879><c> value</c><00:05:49.210><c> there</c>
+
+00:05:49.379 --> 00:05:49.389 align:start position:0%
+when we load and store the value there
+ 
+
+00:05:49.389 --> 00:05:54.450 align:start position:0%
+when we load and store the value there
+we<00:05:49.599><c> get</c><00:05:49.770><c> 313</c><00:05:51.930><c> we</c><00:05:52.930><c> inspect</c><00:05:53.349><c> the</c><00:05:53.589><c> contents</c><00:05:53.919><c> of</c>
+
+00:05:54.450 --> 00:05:54.460 align:start position:0%
+we get 313 we inspect the contents of
+ 
+
+00:05:54.460 --> 00:06:00.899 align:start position:0%
+we get 313 we inspect the contents of
+memory<00:05:55.389><c> and</c><00:05:55.810><c> hexadecimal</c><00:05:57.659><c> indian</c><00:05:58.659><c> it's</c><00:05:59.349><c> 0</c><00:06:00.219><c> 0</c><00:06:00.669><c> 0</c>
+
+00:06:00.899 --> 00:06:00.909 align:start position:0%
+memory and hexadecimal indian it's 0 0 0
+ 
+
+00:06:00.909 --> 00:06:06.209 align:start position:0%
+memory and hexadecimal indian it's 0 0 0
+0<00:06:01.060><c> 1</c><00:06:01.900><c> 3</c><00:06:02.319><c> 9</c><00:06:02.589><c> where</c><00:06:03.580><c> 139</c><00:06:04.360><c> in</c><00:06:05.080><c> hexadecimal</c><00:06:05.529><c> is</c>
+
+00:06:06.209 --> 00:06:06.219 align:start position:0%
+0 1 3 9 where 139 in hexadecimal is
+ 
+
+00:06:06.219 --> 00:06:11.159 align:start position:0%
+0 1 3 9 where 139 in hexadecimal is
+equivalent<00:06:06.729><c> to</c><00:06:06.990><c> 313</c><00:06:07.990><c> in</c><00:06:08.520><c> decimal</c><00:06:09.719><c> in</c><00:06:10.719><c> a</c><00:06:10.870><c> little</c>
+
+00:06:11.159 --> 00:06:11.169 align:start position:0%
+equivalent to 313 in decimal in a little
+ 
+
+00:06:11.169 --> 00:06:16.589 align:start position:0%
+equivalent to 313 in decimal in a little
+endian<00:06:11.589><c> architecture</c><00:06:12.330><c> these</c><00:06:13.330><c> last</c><00:06:15.599><c> nibbles</c>
+
+00:06:16.589 --> 00:06:16.599 align:start position:0%
+endian architecture these last nibbles
+ 
+
+00:06:16.599 --> 00:06:20.540 align:start position:0%
+endian architecture these last nibbles
+the<00:06:16.810><c> last</c><00:06:17.050><c> byte</c><00:06:17.379><c> of</c><00:06:17.490><c> word</c><00:06:18.490><c> and</c><00:06:18.789><c> big-endian</c><00:06:19.270><c> is</c>
+
+00:06:20.540 --> 00:06:20.550 align:start position:0%
+the last byte of word and big-endian is
+ 
+
+00:06:20.550 --> 00:06:25.200 align:start position:0%
+the last byte of word and big-endian is
+swapped<00:06:21.550><c> in</c><00:06:21.849><c> the</c><00:06:22.000><c> memory</c><00:06:22.680><c> at</c><00:06:23.680><c> by</c><00:06:24.550><c> containing</c>
+
+00:06:25.200 --> 00:06:25.210 align:start position:0%
+swapped in the memory at by containing
+ 
+
+00:06:25.210 --> 00:06:27.809 align:start position:0%
+swapped in the memory at by containing
+the<00:06:25.569><c> hexadecimal</c><00:06:25.930><c> 3</c><00:06:26.560><c> 9</c><00:06:26.770><c> would</c><00:06:27.370><c> actually</c>
+
+00:06:27.809 --> 00:06:27.819 align:start position:0%
+the hexadecimal 3 9 would actually
+ 
+
+00:06:27.819 --> 00:06:31.379 align:start position:0%
+the hexadecimal 3 9 would actually
+appeared<00:06:28.240><c> first</c><00:06:28.599><c> at</c><00:06:29.199><c> this</c><00:06:29.469><c> is</c><00:06:29.650><c> Ray</c><00:06:30.029><c> Ray</c><00:06:31.029><c> index</c>
+
+00:06:31.379 --> 00:06:31.389 align:start position:0%
+appeared first at this is Ray Ray index
+ 
+
+00:06:31.389 --> 00:06:36.809 align:start position:0%
+appeared first at this is Ray Ray index
+1<00:06:31.830><c> starting</c><00:06:32.830><c> at</c><00:06:32.919><c> address</c><00:06:33.219><c> 1</c><00:06:33.610><c> 0</c><00:06:33.879><c> 0</c><00:06:34.150><c> 1</c><00:06:34.360><c> 0</c><00:06:34.870><c> 0</c><00:06:34.930><c> 0</c><00:06:35.819><c> in</c>
+
+00:06:36.809 --> 00:06:36.819 align:start position:0%
+1 starting at address 1 0 0 1 0 0 0 in
+ 
+
+00:06:36.819 --> 00:06:39.240 align:start position:0%
+1 starting at address 1 0 0 1 0 0 0 in
+the<00:06:36.909><c> decimal</c><00:06:37.389><c> content</c><00:06:37.900><c> of</c><00:06:38.139><c> 78</c><00:06:38.740><c> when</c><00:06:38.949><c> you</c><00:06:39.069><c> load</c>
+
+00:06:39.240 --> 00:06:39.250 align:start position:0%
+the decimal content of 78 when you load
+ 
+
+00:06:39.250 --> 00:06:41.209 align:start position:0%
+the decimal content of 78 when you load
+and<00:06:39.430><c> store</c><00:06:39.669><c> it</c><00:06:39.879><c> would</c><00:06:40.509><c> have</c><00:06:40.659><c> a</c><00:06:40.689><c> big-endian</c>
+
+00:06:41.209 --> 00:06:41.219 align:start position:0%
+and store it would have a big-endian
+ 
+
+00:06:41.219 --> 00:06:47.969 align:start position:0%
+and store it would have a big-endian
+representation<00:06:42.219><c> of</c><00:06:42.490><c> 0</c><00:06:42.939><c> 0</c><00:06:43.270><c> 0</c><00:06:43.539><c> 0</c><00:06:43.629><c> 0</c><00:06:44.469><c> 0</c><00:06:44.589><c> 4</c><00:06:45.430><c> e</c><00:06:46.979><c> lndian</c>
+
+00:06:47.969 --> 00:06:47.979 align:start position:0%
+representation of 0 0 0 0 0 0 4 e lndian
+ 
+
+00:06:47.979 --> 00:06:54.600 align:start position:0%
+representation of 0 0 0 0 0 0 4 e lndian
+representation<00:06:48.789><c> for</c><00:06:49.479><c> e</c><00:06:49.719><c> 0</c><00:06:50.050><c> 0</c><00:06:50.620><c> 0</c><00:06:51.129><c> 0</c><00:06:52.979><c> index</c><00:06:53.979><c> 2</c><00:06:54.279><c> is</c>
+
+00:06:54.600 --> 00:06:54.610 align:start position:0%
+representation for e 0 0 0 0 index 2 is
+ 
+
+00:06:54.610 --> 00:06:56.230 align:start position:0%
+representation for e 0 0 0 0 index 2 is
+similar
+
+00:06:56.230 --> 00:06:56.240 align:start position:0%
+similar
+ 
+
+00:06:56.240 --> 00:06:59.400 align:start position:0%
+similar
+now<00:06:56.569><c> we</c><00:06:56.630><c> look</c><00:06:56.960><c> at</c><00:06:57.080><c> the</c><00:06:57.229><c> hexadecimal</c><00:06:57.560><c> of</c><00:06:58.250><c> this</c>
+
+00:06:59.400 --> 00:06:59.410 align:start position:0%
+now we look at the hexadecimal of this
+ 
+
+00:06:59.410 --> 00:07:02.850 align:start position:0%
+now we look at the hexadecimal of this
+larger<00:07:00.410><c> decimal</c><00:07:01.130><c> number</c><00:07:01.430><c> these</c><00:07:01.819><c> pairs</c><00:07:02.180><c> of</c>
+
+00:07:02.850 --> 00:07:02.860 align:start position:0%
+larger decimal number these pairs of
+ 
+
+00:07:02.860 --> 00:07:10.420 align:start position:0%
+larger decimal number these pairs of
+nibbles<00:07:03.860><c> appears</c><00:07:04.490><c> in</c><00:07:04.699><c> the</c><00:07:07.960><c> M</c><00:07:08.960><c> comes</c><00:07:09.440><c> down</c><00:07:09.710><c> to</c>
+
+00:07:10.420 --> 00:07:10.430 align:start position:0%
+nibbles appears in the M comes down to
+ 
+
+00:07:10.430 --> 00:07:14.370 align:start position:0%
+nibbles appears in the M comes down to
+here<00:07:10.729><c> a</c><00:07:10.910><c> more</c><00:07:11.810><c> significant</c><00:07:13.030><c> part</c><00:07:14.030><c> of</c>
+
+00:07:14.370 --> 00:07:14.380 align:start position:0%
+here a more significant part of
+ 
+
+00:07:14.380 --> 00:07:18.909 align:start position:0%
+here a more significant part of
+little-endian<00:07:15.430><c> representation</c><00:07:16.750><c> 9200</c><00:07:17.919><c> over</c>
+
+00:07:18.909 --> 00:07:18.919 align:start position:0%
+little-endian representation 9200 over
+ 
+
+00:07:18.919 --> 00:07:25.779 align:start position:0%
+little-endian representation 9200 over
+here<00:07:19.900><c> is</c><00:07:20.900><c> your</c><00:07:21.229><c> lap</c><00:07:21.940><c> here</c><00:07:23.949><c> zero</c><00:07:24.949><c> zeros</c><00:07:25.340><c> on</c><00:07:25.729><c> the</c>
+
+00:07:25.779 --> 00:07:25.789 align:start position:0%
+here is your lap here zero zeros on the
+ 
+
+00:07:25.789 --> 00:07:29.680 align:start position:0%
+here is your lap here zero zeros on the
+end<00:07:25.940><c> swap</c><00:07:27.699><c> so</c><00:07:28.699><c> you</c><00:07:28.759><c> can</c><00:07:28.970><c> see</c><00:07:29.120><c> how</c><00:07:29.300><c> the</c><00:07:29.360><c> big</c>
+
+00:07:29.680 --> 00:07:29.690 align:start position:0%
+end swap so you can see how the big
+ 
+
+00:07:29.690 --> 00:07:33.339 align:start position:0%
+end swap so you can see how the big
+endian<00:07:30.050><c> and</c><00:07:30.349><c> little</c><00:07:30.680><c> endian</c><00:07:31.360><c> are</c><00:07:32.360><c> sort</c><00:07:33.259><c> of</c>
+
+00:07:33.339 --> 00:07:33.349 align:start position:0%
+endian and little endian are sort of
+ 
+
+00:07:33.349 --> 00:07:36.600 align:start position:0%
+endian and little endian are sort of
+mirrors<00:07:33.830><c> at</c><00:07:33.979><c> each</c><00:07:34.099><c> other</c><00:07:34.310><c> but</c><00:07:34.699><c> not</c><00:07:34.849><c> exactly</c>
+
+00:07:36.600 --> 00:07:36.610 align:start position:0%
+mirrors at each other but not exactly
+ 
+
+00:07:36.610 --> 00:07:42.219 align:start position:0%
+mirrors at each other but not exactly
+and<00:07:38.410><c> the</c><00:07:39.410><c> last</c><00:07:39.650><c> two</c><00:07:40.220><c> elements</c><00:07:40.610><c> in</c><00:07:41.240><c> the</c><00:07:41.570><c> US</c><00:07:41.930><c> the</c>
+
+00:07:42.219 --> 00:07:42.229 align:start position:0%
+and the last two elements in the US the
+ 
+
+00:07:42.229 --> 00:07:48.339 align:start position:0%
+and the last two elements in the US the
+third<00:07:42.470><c> and</c><00:07:42.770><c> fourth</c><00:07:43.250><c> indexes</c><00:07:44.060><c> are</c><00:07:44.900><c> legs</c><00:07:47.349><c> who</c>
+
+00:07:48.339 --> 00:07:48.349 align:start position:0%
+third and fourth indexes are legs who
+ 
+
+00:07:48.349 --> 00:07:54.700 align:start position:0%
+third and fourth indexes are legs who
+are<00:07:48.530><c> interesting</c><00:07:49.099><c> here</c><00:07:49.280><c> to</c><00:07:49.400><c> see</c><00:07:53.710><c> memory</c>
+
+00:07:54.700 --> 00:07:54.710 align:start position:0%
+are interesting here to see memory
+ 
+
+00:07:54.710 --> 00:07:58.089 align:start position:0%
+are interesting here to see memory
+instructions<00:07:55.490><c> and</c><00:07:55.759><c> maps</c><00:07:56.000><c> are</c><00:07:56.650><c> earth</c><00:07:57.650><c> and</c>
+
+00:07:58.089 --> 00:07:58.099 align:start position:0%
+instructions and maps are earth and
+ 
+
+00:07:58.099 --> 00:08:02.499 align:start position:0%
+instructions and maps are earth and
+store<00:07:58.550><c> word</c><00:07:59.620><c> owed</c><00:08:00.620><c> word</c><00:08:00.919><c> to</c><00:08:01.520><c> a</c><00:08:01.550><c> register</c><00:08:02.240><c> at</c>
+
+00:08:02.499 --> 00:08:02.509 align:start position:0%
+store word owed word to a register at
+ 
+
+00:08:02.509 --> 00:08:07.540 align:start position:0%
+store word owed word to a register at
+the<00:08:03.110><c> office</c><00:08:03.770><c> horse</c><00:08:04.669><c> register</c><00:08:05.740><c> this</c><00:08:06.740><c> loads</c><00:08:07.190><c> or</c>
+
+00:08:07.540 --> 00:08:07.550 align:start position:0%
+the office horse register this loads or
+ 
+
+00:08:07.550 --> 00:08:09.760 align:start position:0%
+the office horse register this loads or
+reads<00:08:07.820><c> a</c><00:08:08.090><c> word</c><00:08:08.330><c> of</c><00:08:08.599><c> data</c><00:08:08.810><c> into</c><00:08:09.530><c> the</c>
+
+00:08:09.760 --> 00:08:09.770 align:start position:0%
+reads a word of data into the
+ 
+
+00:08:09.770 --> 00:08:13.120 align:start position:0%
+reads a word of data into the
+destination<00:08:10.729><c> register</c><00:08:11.710><c> memory</c><00:08:12.710><c> at</c><00:08:12.979><c> the</c>
+
+00:08:13.120 --> 00:08:13.130 align:start position:0%
+destination register memory at the
+ 
+
+00:08:13.130 --> 00:08:16.060 align:start position:0%
+destination register memory at the
+memory<00:08:13.340><c> address</c><00:08:14.050><c> calculated</c><00:08:15.050><c> by</c><00:08:15.229><c> adding</c><00:08:15.440><c> the</c>
+
+00:08:16.060 --> 00:08:16.070 align:start position:0%
+memory address calculated by adding the
+ 
+
+00:08:16.070 --> 00:08:19.779 align:start position:0%
+memory address calculated by adding the
+offset<00:08:16.810><c> which</c><00:08:17.810><c> is</c><00:08:17.960><c> an</c><00:08:18.110><c> immediate</c><00:08:18.440><c> value</c><00:08:18.789><c> to</c>
+
+00:08:19.779 --> 00:08:19.789 align:start position:0%
+offset which is an immediate value to
+ 
+
+00:08:19.789 --> 00:08:23.379 align:start position:0%
+offset which is an immediate value to
+the<00:08:19.940><c> source</c><00:08:20.180><c> register</c><00:08:21.880><c> the</c><00:08:22.880><c> store</c><00:08:23.180><c> word</c>
+
+00:08:23.379 --> 00:08:23.389 align:start position:0%
+the source register the store word
+ 
+
+00:08:23.389 --> 00:08:27.550 align:start position:0%
+the source register the store word
+instruction<00:08:23.889><c> will</c><00:08:24.889><c> copy</c><00:08:25.550><c> the</c><00:08:26.120><c> word</c><00:08:26.840><c> from</c><00:08:27.349><c> the</c>
+
+00:08:27.550 --> 00:08:27.560 align:start position:0%
+instruction will copy the word from the
+ 
+
+00:08:27.560 --> 00:08:30.700 align:start position:0%
+instruction will copy the word from the
+source<00:08:27.800><c> register</c><00:08:28.490><c> out</c><00:08:28.820><c> to</c><00:08:29.719><c> memory</c><00:08:30.169><c> at</c><00:08:30.469><c> the</c>
+
+00:08:30.700 --> 00:08:30.710 align:start position:0%
+source register out to memory at the
+ 
+
+00:08:30.710 --> 00:08:33.399 align:start position:0%
+source register out to memory at the
+memory<00:08:31.039><c> address</c><00:08:31.400><c> located</c><00:08:31.909><c> at</c><00:08:32.240><c> the</c><00:08:32.810><c> offset</c>
+
+00:08:33.399 --> 00:08:33.409 align:start position:0%
+memory address located at the offset
+ 
+
+00:08:33.409 --> 00:08:36.370 align:start position:0%
+memory address located at the offset
+plus<00:08:34.070><c> the</c><00:08:34.490><c> value</c><00:08:34.640><c> read</c><00:08:35.270><c> from</c><00:08:35.479><c> the</c><00:08:35.659><c> destination</c>
+
+00:08:36.370 --> 00:08:36.380 align:start position:0%
+plus the value read from the destination
+ 
+
+00:08:36.380 --> 00:08:40.089 align:start position:0%
+plus the value read from the destination
+register<00:08:37.930><c> this</c><00:08:38.930><c> type</c><00:08:39.200><c> of</c><00:08:39.229><c> a</c><00:08:39.589><c> memory</c>
+
+00:08:40.089 --> 00:08:40.099 align:start position:0%
+register this type of a memory
+ 
+
+00:08:40.099 --> 00:08:41.829 align:start position:0%
+register this type of a memory
+addressing<00:08:40.640><c> scheme</c><00:08:40.969><c> is</c><00:08:41.240><c> sometimes</c><00:08:41.599><c> called</c>
+
+00:08:41.829 --> 00:08:41.839 align:start position:0%
+addressing scheme is sometimes called
+ 
+
+00:08:41.839 --> 00:08:44.769 align:start position:0%
+addressing scheme is sometimes called
+base<00:08:42.200><c> plus</c><00:08:42.560><c> offset</c><00:08:43.190><c> where</c><00:08:43.909><c> the</c><00:08:44.000><c> basis</c><00:08:44.510><c> for</c>
+
+00:08:44.769 --> 00:08:44.779 align:start position:0%
+base plus offset where the basis for
+ 
+
+00:08:44.779 --> 00:08:47.380 align:start position:0%
+base plus offset where the basis for
+register<00:08:45.529><c> and</c><00:08:45.920><c> the</c><00:08:46.040><c> offset</c><00:08:46.520><c> is</c><00:08:46.790><c> the</c><00:08:46.970><c> immediate</c>
+
+00:08:47.380 --> 00:08:47.390 align:start position:0%
+register and the offset is the immediate
+ 
+
+00:08:47.390 --> 00:08:49.500 align:start position:0%
+register and the offset is the immediate
+value<00:08:47.690><c> that</c><00:08:47.839><c> gets</c><00:08:47.990><c> added</c><00:08:48.290><c> to</c><00:08:48.470><c> the</c><00:08:48.620><c> register</c><00:08:49.040><c> to</c>
+
+00:08:49.500 --> 00:08:49.510 align:start position:0%
+value that gets added to the register to
+ 
+
+00:08:49.510 --> 00:08:52.180 align:start position:0%
+value that gets added to the register to
+specify<00:08:50.510><c> a</c><00:08:50.540><c> constant</c><00:08:51.170><c> address</c><00:08:51.470><c> value</c><00:08:51.709><c> you</c><00:08:52.010><c> can</c>
+
+00:08:52.180 --> 00:08:52.190 align:start position:0%
+specify a constant address value you can
+ 
+
+00:08:52.190 --> 00:08:53.949 align:start position:0%
+specify a constant address value you can
+use<00:08:52.310><c> a</c><00:08:52.339><c> base</c><00:08:52.579><c> register</c><00:08:52.790><c> of</c><00:08:53.180><c> dollar</c><00:08:53.360><c> zero</c><00:08:53.450><c> and</c>
+
+00:08:53.949 --> 00:08:53.959 align:start position:0%
+use a base register of dollar zero and
+ 
+
+00:08:53.959 --> 00:09:01.240 align:start position:0%
+use a base register of dollar zero and
+MIPS<00:08:56.740><c> base</c><00:08:57.740><c> plus</c><00:08:58.070><c> offset</c><00:08:58.310><c> is</c><00:08:59.500><c> is</c><00:09:00.500><c> relatively</c>
+
+00:09:01.240 --> 00:09:01.250 align:start position:0%
+MIPS base plus offset is is relatively
+ 
+
+00:09:01.250 --> 00:09:03.280 align:start position:0%
+MIPS base plus offset is is relatively
+efficient<00:09:01.730><c> or</c><00:09:02.209><c> the</c><00:09:02.329><c> common</c><00:09:02.720><c> programming</c>
+
+00:09:03.280 --> 00:09:03.290 align:start position:0%
+efficient or the common programming
+ 
+
+00:09:03.290 --> 00:09:04.750 align:start position:0%
+efficient or the common programming
+practice<00:09:03.709><c> of</c><00:09:03.890><c> incrementing</c><00:09:04.459><c> through</c><00:09:04.670><c> an</c>
+
+00:09:04.750 --> 00:09:04.760 align:start position:0%
+practice of incrementing through an
+ 
+
+00:09:04.760 --> 00:09:09.759 align:start position:0%
+practice of incrementing through an
+array<00:09:07.240><c> here's</c><00:09:08.240><c> an</c><00:09:08.329><c> example</c><00:09:08.660><c> of</c><00:09:08.959><c> word</c><00:09:09.260><c> word</c>
+
+00:09:09.759 --> 00:09:09.769 align:start position:0%
+array here's an example of word word
+ 
+
+00:09:09.769 --> 00:09:12.879 align:start position:0%
+array here's an example of word word
+store<00:09:10.069><c> word</c><00:09:10.279><c> instruction</c><00:09:11.379><c> consider</c><00:09:12.379><c> that</c><00:09:12.679><c> the</c>
+
+00:09:12.879 --> 00:09:12.889 align:start position:0%
+store word instruction consider that the
+ 
+
+00:09:12.889 --> 00:09:14.799 align:start position:0%
+store word instruction consider that the
+registers<00:09:13.489><c> have</c><00:09:13.699><c> been</c><00:09:13.879><c> allocated</c><00:09:14.179><c> so</c><00:09:14.660><c> that</c>
+
+00:09:14.799 --> 00:09:14.809 align:start position:0%
+registers have been allocated so that
+ 
+
+00:09:14.809 --> 00:09:20.259 align:start position:0%
+registers have been allocated so that
+the<00:09:14.929><c> variables</c><00:09:15.439><c> here</c><00:09:15.619><c> declared</c><00:09:16.100><c> as</c><00:09:16.339><c> GH</c><00:09:19.269><c> birth</c>
+
+00:09:20.259 --> 00:09:20.269 align:start position:0%
+the variables here declared as GH birth
+ 
+
+00:09:20.269 --> 00:09:24.579 align:start position:0%
+the variables here declared as GH birth
+and<00:09:20.809><c> other</c><00:09:21.499><c> s</c><00:09:21.769><c> $1</c><00:09:22.550><c> s</c><00:09:22.790><c> 2</c><00:09:23.029><c> and</c><00:09:23.360><c> the</c><00:09:24.110><c> base</c><00:09:24.290><c> address</c>
+
+00:09:24.579 --> 00:09:24.589 align:start position:0%
+and other s $1 s 2 and the base address
+ 
+
+00:09:24.589 --> 00:09:31.479 align:start position:0%
+and other s $1 s 2 and the base address
+of<00:09:24.709><c> a</c><00:09:25.129><c> zero</c><00:09:25.550><c> is</c><00:09:25.939><c> in</c><00:09:26.529><c> three</c><00:09:27.529><c> and</c><00:09:29.589><c> to</c><00:09:30.589><c> calculate</c><00:09:31.069><c> V</c>
+
+00:09:31.479 --> 00:09:31.489 align:start position:0%
+of a zero is in three and to calculate V
+ 
+
+00:09:31.489 --> 00:09:36.300 align:start position:0%
+of a zero is in three and to calculate V
+equals<00:09:32.119><c> H</c><00:09:32.540><c> plus</c><00:09:33.199><c> a</c><00:09:33.379><c> three</c>
+
+00:09:36.300 --> 00:09:36.310 align:start position:0%
+ 
+ 
+
+00:09:36.310 --> 00:09:39.840 align:start position:0%
+ 
+who<00:09:36.370><c> would</c><00:09:36.490><c> first</c><00:09:36.759><c> do</c><00:09:37.529><c> load</c><00:09:38.529><c> word</c><00:09:38.819><c> into</c><00:09:39.819><c> a</c>
+
+00:09:39.840 --> 00:09:39.850 align:start position:0%
+who would first do load word into a
+ 
+
+00:09:39.850 --> 00:09:45.119 align:start position:0%
+who would first do load word into a
+temporary<00:09:40.300><c> register</c><00:09:41.939><c> the</c><00:09:43.079><c> value</c><00:09:44.079><c> located</c><00:09:44.980><c> at</c>
+
+00:09:45.119 --> 00:09:45.129 align:start position:0%
+temporary register the value located at
+ 
+
+00:09:45.129 --> 00:09:47.939 align:start position:0%
+temporary register the value located at
+offset<00:09:45.430><c> twelve</c><00:09:46.149><c> which</c><00:09:47.019><c> corresponds</c><00:09:47.649><c> with</c>
+
+00:09:47.939 --> 00:09:47.949 align:start position:0%
+offset twelve which corresponds with
+ 
+
+00:09:47.949 --> 00:09:51.090 align:start position:0%
+offset twelve which corresponds with
+array<00:09:48.399><c> index</c><00:09:48.790><c> three</c><00:09:49.439><c> this</c><00:09:50.439><c> is</c><00:09:50.589><c> an</c><00:09:50.740><c> integer</c>
+
+00:09:51.090 --> 00:09:51.100 align:start position:0%
+array index three this is an integer
+ 
+
+00:09:51.100 --> 00:09:58.739 align:start position:0%
+array index three this is an integer
+array<00:09:51.579><c> and</c><00:09:52.060><c> so</c><00:09:52.870><c> the</c><00:09:53.050><c> array</c><00:09:53.379><c> index</c><00:09:53.680><c> of</c><00:09:54.639><c> 3</c><00:09:55.860><c> is</c><00:09:57.749><c> 12</c>
+
+00:09:58.739 --> 00:09:58.749 align:start position:0%
+array and so the array index of 3 is 12
+ 
+
+00:09:58.749 --> 00:10:03.299 align:start position:0%
+array and so the array index of 3 is 12
+fights<00:09:59.709><c> from</c><00:10:00.639><c> the</c><00:10:00.819><c> start</c><00:10:01.240><c> of</c><00:10:01.540><c> the</c><00:10:02.050><c> array</c><00:10:02.379><c> 3</c>
+
+00:10:03.299 --> 00:10:03.309 align:start position:0%
+fights from the start of the array 3
+ 
+
+00:10:03.309 --> 00:10:08.970 align:start position:0%
+fights from the start of the array 3
+times<00:10:03.779><c> 4</c><00:10:04.779><c> bytes</c><00:10:05.529><c> forward</c><00:10:06.660><c> so</c><00:10:07.660><c> we</c><00:10:07.930><c> add</c><00:10:08.050><c> 12</c><00:10:08.649><c> bytes</c>
+
+00:10:08.970 --> 00:10:08.980 align:start position:0%
+times 4 bytes forward so we add 12 bytes
+ 
+
+00:10:08.980 --> 00:10:13.799 align:start position:0%
+times 4 bytes forward so we add 12 bytes
+to<00:10:09.879><c> the</c><00:10:09.999><c> base</c><00:10:10.180><c> register</c><00:10:10.499><c> address</c><00:10:12.029><c> dollar</c><00:10:13.029><c> s3</c>
+
+00:10:13.799 --> 00:10:13.809 align:start position:0%
+to the base register address dollar s3
+ 
+
+00:10:13.809 --> 00:10:16.470 align:start position:0%
+to the base register address dollar s3
+that<00:10:14.290><c> stores</c><00:10:14.620><c> the</c><00:10:14.740><c> base</c><00:10:15.100><c> address</c><00:10:15.490><c> of</c><00:10:15.519><c> the</c>
+
+00:10:16.470 --> 00:10:16.480 align:start position:0%
+that stores the base address of the
+ 
+
+00:10:16.480 --> 00:10:20.790 align:start position:0%
+that stores the base address of the
+array<00:10:16.629><c> a</c><00:10:17.050><c> now</c><00:10:18.600><c> dollar</c><00:10:19.600><c> t0</c><00:10:20.199><c> is</c><00:10:20.350><c> equal</c><00:10:20.410><c> to</c><00:10:20.709><c> the</c>
+
+00:10:20.790 --> 00:10:20.800 align:start position:0%
+array a now dollar t0 is equal to the
+ 
+
+00:10:20.800 --> 00:10:24.269 align:start position:0%
+array a now dollar t0 is equal to the
+value<00:10:20.980><c> of</c><00:10:21.300><c> array</c><00:10:22.300><c> a</c><00:10:22.329><c> and</c><00:10:22.860><c> we</c><00:10:23.860><c> can</c><00:10:24.009><c> add</c><00:10:24.249><c> that</c>
+
+00:10:24.269 --> 00:10:24.279 align:start position:0%
+value of array a and we can add that
+ 
+
+00:10:24.279 --> 00:10:30.030 align:start position:0%
+value of array a and we can add that
+value<00:10:24.699><c> array</c><00:10:25.529><c> a3</c><00:10:27.120><c> to</c><00:10:28.120><c> the</c><00:10:28.499><c> register</c><00:10:29.499><c> value</c><00:10:29.889><c> of</c>
+
+00:10:30.030 --> 00:10:30.040 align:start position:0%
+value array a3 to the register value of
+ 
+
+00:10:30.040 --> 00:10:39.119 align:start position:0%
+value array a3 to the register value of
+H<00:10:30.220><c> and</c><00:10:30.579><c> s2</c><00:10:31.120><c> and</c><00:10:31.389><c> store</c><00:10:31.899><c> it</c><00:10:32.019><c> into</c><00:10:32.319><c> s1</c><00:10:38.129><c> level</c>
+
+00:10:39.119 --> 00:10:39.129 align:start position:0%
+H and s2 and store it into s1 level
+ 
+
+00:10:39.129 --> 00:10:46.040 align:start position:0%
+H and s2 and store it into s1 level
+language<00:10:39.490><c> instruction</c><00:10:40.180><c> is</c><00:10:40.809><c> 8</c><00:10:41.410><c> 4</c><00:10:41.800><c> equals</c><00:10:42.339><c> 8</c>
+
+00:10:46.040 --> 00:10:46.050 align:start position:0%
+ 
+ 
+
+00:10:46.050 --> 00:10:52.850 align:start position:0%
+ 
+here<00:10:47.070><c> we</c><00:10:48.070><c> reread</c><00:10:48.699><c> eighth</c><00:10:49.949><c> he</c><00:10:50.949><c> added</c><00:10:51.370><c> to</c><00:10:51.910><c> age</c>
+
+00:10:52.850 --> 00:10:52.860 align:start position:0%
+here we reread eighth he added to age
+ 
+
+00:10:52.860 --> 00:10:55.230 align:start position:0%
+here we reread eighth he added to age
+these<00:10:53.860><c> two</c><00:10:54.100><c> instructions</c><00:10:54.730><c> are</c><00:10:54.880><c> actually</c>
+
+00:10:55.230 --> 00:10:55.240 align:start position:0%
+these two instructions are actually
+ 
+
+00:10:55.240 --> 00:10:58.050 align:start position:0%
+these two instructions are actually
+redundant<00:10:55.839><c> in</c><00:10:56.500><c> another</c><00:10:56.769><c> future</c><00:10:57.130><c> video</c><00:10:57.550><c> I'll</c>
+
+00:10:58.050 --> 00:10:58.060 align:start position:0%
+redundant in another future video I'll
+ 
+
+00:10:58.060 --> 00:11:01.050 align:start position:0%
+redundant in another future video I'll
+discuss<00:10:58.630><c> about</c><00:10:59.019><c> removing</c><00:10:59.980><c> these</c><00:11:00.190><c> redundant</c>
+
+00:11:01.050 --> 00:11:01.060 align:start position:0%
+discuss about removing these redundant
+ 
+
+00:11:01.060 --> 00:11:05.189 align:start position:0%
+discuss about removing these redundant
+instructions<00:11:02.310><c> in</c><00:11:03.310><c> order</c><00:11:03.639><c> to</c><00:11:03.820><c> save</c><00:11:04.360><c> execution</c>
+
+00:11:05.189 --> 00:11:05.199 align:start position:0%
+instructions in order to save execution
+ 
+
+00:11:05.199 --> 00:11:13.740 align:start position:0%
+instructions in order to save execution
+time<00:11:07.500><c> so</c><00:11:08.500><c> the</c><00:11:09.870><c> assignment</c><00:11:10.870><c> of</c><00:11:11.410><c> H</c><00:11:12.040><c> +</c><00:11:12.370><c> a3</c><00:11:12.639><c> and</c><00:11:13.209><c> a4</c>
+
+00:11:13.740 --> 00:11:13.750 align:start position:0%
+time so the assignment of H + a3 and a4
+ 
+
+00:11:13.750 --> 00:11:17.400 align:start position:0%
+time so the assignment of H + a3 and a4
+is<00:11:14.350><c> accomplished</c><00:11:15.220><c> by</c><00:11:15.490><c> doing</c><00:11:15.820><c> a</c><00:11:16.329><c> store</c><00:11:16.660><c> word</c><00:11:16.930><c> of</c>
+
+00:11:17.400 --> 00:11:17.410 align:start position:0%
+is accomplished by doing a store word of
+ 
+
+00:11:17.410 --> 00:11:21.240 align:start position:0%
+is accomplished by doing a store word of
+the<00:11:18.279><c> calculated</c><00:11:18.790><c> value</c><00:11:19.209><c> of</c><00:11:19.360><c> H</c><00:11:19.510><c> +</c><00:11:19.810><c> 83</c><00:11:20.079><c> out</c><00:11:20.709><c> to</c>
+
+00:11:21.240 --> 00:11:21.250 align:start position:0%
+the calculated value of H + 83 out to
+ 
+
+00:11:21.250 --> 00:11:24.990 align:start position:0%
+the calculated value of H + 83 out to
+the<00:11:21.459><c> index</c><00:11:22.089><c> of</c><00:11:22.589><c> 16</c><00:11:23.589><c> offset</c><00:11:24.459><c> from</c><00:11:24.730><c> the</c><00:11:24.850><c> base</c>
+
+00:11:24.990 --> 00:11:25.000 align:start position:0%
+the index of 16 offset from the base
+ 
+
+00:11:25.000 --> 00:11:29.699 align:start position:0%
+the index of 16 offset from the base
+address<00:11:25.269><c> s</c><00:11:25.540><c> 3</c><00:11:25.899><c> again</c><00:11:26.820><c> 16</c><00:11:27.820><c> is</c><00:11:28.240><c> equal</c><00:11:28.720><c> to</c><00:11:28.959><c> 4</c><00:11:29.199><c> times</c>
+
+00:11:29.699 --> 00:11:29.709 align:start position:0%
+address s 3 again 16 is equal to 4 times
+ 
+
+00:11:29.709 --> 00:11:35.009 align:start position:0%
+address s 3 again 16 is equal to 4 times
+4<00:11:30.279><c> plus</c><00:11:31.029><c> 16</c><00:11:31.690><c> bytes</c><00:11:32.260><c> from</c><00:11:33.220><c> the</c><00:11:33.399><c> start</c><00:11:33.699><c> of</c><00:11:33.970><c> a</c><00:11:34.300><c> the</c>
+
+00:11:35.009 --> 00:11:35.019 align:start position:0%
+4 plus 16 bytes from the start of a the
+ 
+
+00:11:35.019 --> 00:11:40.949 align:start position:0%
+4 plus 16 bytes from the start of a the
+location<00:11:35.560><c> of</c><00:11:35.769><c> a</c><00:11:35.889><c> before</c><00:11:39.720><c> here's</c><00:11:40.720><c> another</c>
+
+00:11:40.949 --> 00:11:40.959 align:start position:0%
+location of a before here's another
+ 
+
+00:11:40.959 --> 00:11:43.500 align:start position:0%
+location of a before here's another
+example<00:11:41.170><c> this</c><00:11:41.980><c> time</c><00:11:42.089><c> we're</c><00:11:43.089><c> not</c><00:11:43.120><c> going</c><00:11:43.389><c> to</c>
+
+00:11:43.500 --> 00:11:43.510 align:start position:0%
+example this time we're not going to
+ 
+
+00:11:43.510 --> 00:11:46.170 align:start position:0%
+example this time we're not going to
+assume<00:11:43.750><c> anything</c><00:11:44.110><c> about</c><00:11:45.180><c> register</c>
+
+00:11:46.170 --> 00:11:46.180 align:start position:0%
+assume anything about register
+ 
+
+00:11:46.180 --> 00:11:50.610 align:start position:0%
+assume anything about register
+allocation<00:11:46.630><c> yet</c><00:11:47.079><c> a</c><00:11:48.269><c> 5</c><00:11:49.269><c> element</c><00:11:49.779><c> array</c><00:11:50.019><c> a</c><00:11:50.050><c> again</c>
+
+00:11:50.610 --> 00:11:50.620 align:start position:0%
+allocation yet a 5 element array a again
+ 
+
+00:11:50.620 --> 00:11:54.710 align:start position:0%
+allocation yet a 5 element array a again
+and<00:11:51.180><c> we're</c><00:11:52.180><c> going</c><00:11:52.329><c> to</c><00:11:52.389><c> calculate</c><00:11:52.860><c> the</c>
+
+00:11:54.710 --> 00:11:54.720 align:start position:0%
+and we're going to calculate the
+ 
+
+00:11:54.720 --> 00:11:58.530 align:start position:0%
+and we're going to calculate the
+salvation<00:11:55.720><c> of</c><00:11:55.899><c> a</c><00:11:56.709><c> 0</c><00:11:57.160><c> plus</c><00:11:57.430><c> a</c><00:11:57.579><c> 1</c><00:11:57.610><c> plus</c><00:11:58.120><c> a</c><00:11:58.300><c> 2</c><00:11:58.329><c> plus</c>
+
+00:11:58.530 --> 00:11:58.540 align:start position:0%
+salvation of a 0 plus a 1 plus a 2 plus
+ 
+
+00:11:58.540 --> 00:12:03.750 align:start position:0%
+salvation of a 0 plus a 1 plus a 2 plus
+a<00:11:58.990><c> 3</c><00:11:59.019><c> and</c><00:11:59.649><c> store</c><00:12:00.069><c> the</c><00:12:00.220><c> results</c><00:12:00.670><c> in</c><00:12:00.819><c> the</c><00:12:00.940><c> a</c><00:12:00.970><c> 4</c><00:12:02.760><c> the</c>
+
+00:12:03.750 --> 00:12:03.760 align:start position:0%
+a 3 and store the results in the a 4 the
+ 
+
+00:12:03.760 --> 00:12:05.340 align:start position:0%
+a 3 and store the results in the a 4 the
+first<00:12:03.970><c> thing</c><00:12:04.180><c> to</c><00:12:04.209><c> do</c><00:12:04.420><c> is</c><00:12:04.660><c> to</c><00:12:04.810><c> get</c><00:12:04.959><c> the</c><00:12:05.110><c> address</c>
+
+00:12:05.340 --> 00:12:05.350 align:start position:0%
+first thing to do is to get the address
+ 
+
+00:12:05.350 --> 00:12:10.800 align:start position:0%
+first thing to do is to get the address
+of<00:12:05.380><c> a</c><00:12:06.690><c> the</c><00:12:07.690><c> L</c><00:12:08.019><c> a</c><00:12:08.380><c> this</c><00:12:09.250><c> drum</c><00:12:09.550><c> is</c><00:12:09.940><c> provided</c><00:12:10.630><c> by</c>
+
+00:12:10.800 --> 00:12:10.810 align:start position:0%
+of a the L a this drum is provided by
+ 
+
+00:12:10.810 --> 00:12:13.199 align:start position:0%
+of a the L a this drum is provided by
+the<00:12:10.870><c> assembler</c><00:12:11.560><c> it</c><00:12:11.860><c> is</c><00:12:12.040><c> a</c><00:12:12.160><c> pseudo</c><00:12:12.399><c> instruction</c>
+
+00:12:13.199 --> 00:12:13.209 align:start position:0%
+the assembler it is a pseudo instruction
+ 
+
+00:12:13.209 --> 00:12:17.519 align:start position:0%
+the assembler it is a pseudo instruction
+and<00:12:13.720><c> you</c><00:12:13.750><c> may</c><00:12:14.019><c> use</c><00:12:14.260><c> it</c><00:12:14.470><c> as</c><00:12:15.300><c> for</c><00:12:16.300><c> load</c><00:12:16.870><c> address</c>
+
+00:12:17.519 --> 00:12:17.529 align:start position:0%
+and you may use it as for load address
+ 
+
+00:12:17.529 --> 00:12:20.939 align:start position:0%
+and you may use it as for load address
+it<00:12:18.279><c> gets</c><00:12:18.519><c> the</c><00:12:18.730><c> address</c><00:12:19.120><c> of</c><00:12:19.389><c> the</c><00:12:20.260><c> label</c><00:12:20.769><c> a</c>
+
+00:12:20.939 --> 00:12:20.949 align:start position:0%
+it gets the address of the label a
+ 
+
+00:12:20.949 --> 00:12:23.819 align:start position:0%
+it gets the address of the label a
+associated<00:12:21.880><c> with</c><00:12:22.029><c> a</c><00:12:22.060><c> variable</c><00:12:22.800><c> into</c><00:12:23.800><c> a</c>
+
+00:12:23.819 --> 00:12:23.829 align:start position:0%
+associated with a variable into a
+ 
+
+00:12:23.829 --> 00:12:27.120 align:start position:0%
+associated with a variable into a
+register<00:12:24.190><c> s</c><00:12:24.639><c> 3</c><00:12:24.970><c> s</c><00:12:25.660><c> 3</c><00:12:25.720><c> will</c><00:12:26.350><c> equal</c><00:12:26.709><c> the</c><00:12:26.829><c> address</c>
+
+00:12:27.120 --> 00:12:27.130 align:start position:0%
+register s 3 s 3 will equal the address
+ 
+
+00:12:27.130 --> 00:12:32.490 align:start position:0%
+register s 3 s 3 will equal the address
+of<00:12:27.430><c> a</c><00:12:30.360><c> now</c><00:12:31.360><c> that</c><00:12:31.389><c> we've</c><00:12:31.630><c> got</c><00:12:31.779><c> the</c><00:12:31.930><c> address</c><00:12:32.019><c> of</c><00:12:32.230><c> a</c>
+
+00:12:32.490 --> 00:12:32.500 align:start position:0%
+of a now that we've got the address of a
+ 
+
+00:12:32.500 --> 00:12:34.920 align:start position:0%
+of a now that we've got the address of a
+the<00:12:32.740><c> base</c><00:12:32.889><c> address</c><00:12:33.160><c> of</c><00:12:33.399><c> a</c><00:12:33.550><c> we</c><00:12:33.970><c> can</c><00:12:34.149><c> now</c><00:12:34.300><c> access</c>
+
+00:12:34.920 --> 00:12:34.930 align:start position:0%
+the base address of a we can now access
+ 
+
+00:12:34.930 --> 00:12:38.430 align:start position:0%
+the base address of a we can now access
+elements<00:12:35.889><c> of</c><00:12:36.730><c> the</c><00:12:36.910><c> array</c><00:12:37.180><c> a</c><00:12:37.209><c> by</c><00:12:37.959><c> offsetting</c>
+
+00:12:38.430 --> 00:12:38.440 align:start position:0%
+elements of the array a by offsetting
+ 
+
+00:12:38.440 --> 00:12:40.829 align:start position:0%
+elements of the array a by offsetting
+from<00:12:38.769><c> that</c><00:12:38.920><c> base</c><00:12:39.069><c> address</c><00:12:39.540><c> so</c><00:12:40.540><c> the</c><00:12:40.630><c> first</c>
+
+00:12:40.829 --> 00:12:40.839 align:start position:0%
+from that base address so the first
+ 
+
+00:12:40.839 --> 00:12:42.350 align:start position:0%
+from that base address so the first
+thing<00:12:41.019><c> to</c><00:12:41.139><c> do</c><00:12:41.260><c> is</c><00:12:41.440><c> to</c><00:12:41.529><c> get</c><00:12:41.620><c> the</c><00:12:41.769><c> value</c><00:12:42.069><c> of</c><00:12:42.100><c> a</c><00:12:42.250><c> 0</c>
+
+00:12:42.350 --> 00:12:42.360 align:start position:0%
+thing to do is to get the value of a 0
+ 
+
+00:12:42.360 --> 00:12:45.509 align:start position:0%
+thing to do is to get the value of a 0
+we<00:12:43.360><c> get</c><00:12:43.480><c> the</c><00:12:43.600><c> value</c><00:12:43.870><c> of</c><00:12:43.899><c> a</c><00:12:44.050><c> 0</c><00:12:44.319><c> by</c><00:12:44.769><c> adding</c><00:12:45.100><c> 0</c><00:12:45.370><c> to</c>
+
+00:12:45.509 --> 00:12:45.519 align:start position:0%
+we get the value of a 0 by adding 0 to
+ 
+
+00:12:45.519 --> 00:12:50.280 align:start position:0%
+we get the value of a 0 by adding 0 to
+the<00:12:45.699><c> base</c><00:12:45.850><c> address</c><00:12:46.029><c> ok</c><00:12:48.690><c> you</c><00:12:49.690><c> know</c><00:12:49.839><c> to</c><00:12:49.899><c> the</c><00:12:50.139><c> base</c>
+
+00:12:50.280 --> 00:12:50.290 align:start position:0%
+the base address ok you know to the base
+ 
+
+00:12:50.290 --> 00:12:55.620 align:start position:0%
+the base address ok you know to the base
+address<00:12:50.500><c> a</c><00:12:54.209><c> base</c><00:12:55.209><c> address</c>
+
+00:12:55.620 --> 00:12:55.630 align:start position:0%
+address a base address
+ 
+
+00:12:55.630 --> 00:13:01.340 align:start position:0%
+address a base address
+of<00:12:55.720><c> a</c><00:12:56.020><c> +0</c><00:12:57.160><c> it</c><00:12:57.340><c> is</c><00:12:57.520><c> the</c><00:12:57.670><c> element</c><00:12:58.150><c> a</c><00:12:58.330><c> zero</c><00:12:58.990><c> zero</c>
+
+00:13:01.340 --> 00:13:01.350 align:start position:0%
+of a +0 it is the element a zero zero
+ 
+
+00:13:01.350 --> 00:13:04.020 align:start position:0%
+of a +0 it is the element a zero zero
+the<00:13:02.350><c> next</c><00:13:02.650><c> load</c><00:13:02.830><c> word</c><00:13:03.100><c> instruction</c><00:13:03.250><c> does</c><00:13:04.000><c> a</c>
+
+00:13:04.020 --> 00:13:04.030 align:start position:0%
+the next load word instruction does a
+ 
+
+00:13:04.030 --> 00:13:06.240 align:start position:0%
+the next load word instruction does a
+similar<00:13:04.330><c> thing</c><00:13:04.480><c> but</c><00:13:04.960><c> this</c><00:13:05.110><c> time</c><00:13:05.250><c> it's</c>
+
+00:13:06.240 --> 00:13:06.250 align:start position:0%
+similar thing but this time it's
+ 
+
+00:13:06.250 --> 00:13:12.560 align:start position:0%
+similar thing but this time it's
+accessing<00:13:07.030><c> the</c><00:13:07.890><c> four</c><00:13:09.270><c> byte</c><00:13:10.270><c> offset</c><00:13:10.860><c> from</c><00:13:11.860><c> the</c>
+
+00:13:12.560 --> 00:13:12.570 align:start position:0%
+accessing the four byte offset from the
+ 
+
+00:13:12.570 --> 00:13:16.500 align:start position:0%
+accessing the four byte offset from the
+base<00:13:13.570><c> of</c><00:13:13.900><c> a</c><00:13:14.170><c> which</c><00:13:14.680><c> is</c><00:13:14.830><c> the</c><00:13:15.160><c> 1s</c><00:13:15.430><c> element</c><00:13:16.210><c> are</c>
+
+00:13:16.500 --> 00:13:16.510 align:start position:0%
+base of a which is the 1s element are
+ 
+
+00:13:16.510 --> 00:13:19.710 align:start position:0%
+base of a which is the 1s element are
+they<00:13:16.710><c> because</c><00:13:17.710><c> each</c><00:13:17.980><c> element</c><00:13:18.220><c> is</c><00:13:19.030><c> four</c><00:13:19.450><c> bytes</c>
+
+00:13:19.710 --> 00:13:19.720 align:start position:0%
+they because each element is four bytes
+ 
+
+00:13:19.720 --> 00:13:25.670 align:start position:0%
+they because each element is four bytes
+as<00:13:20.560><c> an</c><00:13:20.710><c> int</c><00:13:20.950><c> type</c><00:13:21.430><c> is</c><00:13:21.760><c> four</c><00:13:22.150><c> bytes</c><00:13:22.390><c> long</c>
+
+00:13:25.670 --> 00:13:25.680 align:start position:0%
+ 
+ 
+
+00:13:25.680 --> 00:13:29.580 align:start position:0%
+ 
+finally<00:13:26.680><c> add</c><00:13:27.510><c> dollar</c><00:13:28.510><c> to</c><00:13:28.750><c> Euro</c><00:13:29.020><c> dollar</c><00:13:29.350><c> to</c>
+
+00:13:29.580 --> 00:13:29.590 align:start position:0%
+finally add dollar to Euro dollar to
+ 
+
+00:13:29.590 --> 00:13:32.970 align:start position:0%
+finally add dollar to Euro dollar to
+zero<00:13:29.920><c> dollar</c><00:13:30.160><c> t1</c><00:13:30.670><c> adds</c><00:13:31.110><c> the</c><00:13:32.110><c> previously</c>
+
+00:13:32.970 --> 00:13:32.980 align:start position:0%
+zero dollar t1 adds the previously
+ 
+
+00:13:32.980 --> 00:13:35.220 align:start position:0%
+zero dollar t1 adds the previously
+loaded<00:13:33.160><c> values</c><00:13:33.610><c> of</c><00:13:33.730><c> a0</c><00:13:33.850><c> and</c><00:13:34.300><c> a1</c><00:13:34.390><c> into</c><00:13:35.110><c> the</c>
+
+00:13:35.220 --> 00:13:35.230 align:start position:0%
+loaded values of a0 and a1 into the
+ 
+
+00:13:35.230 --> 00:13:38.220 align:start position:0%
+loaded values of a0 and a1 into the
+register<00:13:35.650><c> to</c><00:13:35.860><c> zero</c><00:13:36.180><c> load</c><00:13:37.180><c> the</c><00:13:37.630><c> value</c><00:13:37.780><c> of</c><00:13:38.050><c> a2</c>
+
+00:13:38.220 --> 00:13:38.230 align:start position:0%
+register to zero load the value of a2
+ 
+
+00:13:38.230 --> 00:13:43.920 align:start position:0%
+register to zero load the value of a2
+from<00:13:38.650><c> memory</c><00:13:39.480><c> fit</c><00:13:40.480><c> into</c><00:13:40.630><c> the</c><00:13:40.810><c> t1</c><00:13:41.170><c> register</c><00:13:42.930><c> add</c>
+
+00:13:43.920 --> 00:13:43.930 align:start position:0%
+from memory fit into the t1 register add
+ 
+
+00:13:43.930 --> 00:13:47.490 align:start position:0%
+from memory fit into the t1 register add
+t1<00:13:44.680><c> into</c><00:13:45.340><c> the</c><00:13:45.430><c> previously</c><00:13:46.090><c> computed</c><00:13:46.870><c> value</c>
+
+00:13:47.490 --> 00:13:47.500 align:start position:0%
+t1 into the previously computed value
+ 
+
+00:13:47.500 --> 00:13:52.020 align:start position:0%
+t1 into the previously computed value
+that<00:13:47.890><c> way</c><00:13:49.620><c> so</c><00:13:50.620><c> we're</c><00:13:50.770><c> updating</c><00:13:50.950><c> to</c><00:13:51.430><c> zero</c><00:13:51.760><c> by</c>
+
+00:13:52.020 --> 00:13:52.030 align:start position:0%
+that way so we're updating to zero by
+ 
+
+00:13:52.030 --> 00:13:56.220 align:start position:0%
+that way so we're updating to zero by
+adding<00:13:52.390><c> a</c><00:13:52.570><c> 2</c><00:13:52.630><c> to</c><00:13:53.410><c> it</c><00:13:53.910><c> that</c><00:13:54.910><c> gives</c><00:13:55.150><c> the</c><00:13:55.330><c> 17</c><00:13:55.750><c> 0</c><00:13:55.990><c> now</c>
+
+00:13:56.220 --> 00:13:56.230 align:start position:0%
+adding a 2 to it that gives the 17 0 now
+ 
+
+00:13:56.230 --> 00:14:01.830 align:start position:0%
+adding a 2 to it that gives the 17 0 now
+the<00:13:56.290><c> summation</c><00:13:56.680><c> of</c><00:13:57.100><c> a</c><00:13:57.280><c> 0</c><00:13:57.610><c> a</c><00:13:57.670><c> 1</c><00:13:57.880><c> and</c><00:13:58.210><c> a</c><00:13:58.300><c> 2</c><00:13:58.330><c> and</c><00:14:00.840><c> we</c>
+
+00:14:01.830 --> 00:14:01.840 align:start position:0%
+the summation of a 0 a 1 and a 2 and we
+ 
+
+00:14:01.840 --> 00:14:05.310 align:start position:0%
+the summation of a 0 a 1 and a 2 and we
+need<00:14:01.990><c> the</c><00:14:02.140><c> value</c><00:14:02.260><c> of</c><00:14:02.530><c> 83</c><00:14:02.950><c> we</c><00:14:03.430><c> get</c><00:14:03.550><c> that</c><00:14:04.320><c> the</c>
+
+00:14:05.310 --> 00:14:05.320 align:start position:0%
+need the value of 83 we get that the
+ 
+
+00:14:05.320 --> 00:14:11.220 align:start position:0%
+need the value of 83 we get that the
+right<00:14:05.650><c> hand</c><00:14:05.950><c> side</c><00:14:06.370><c> of</c><00:14:07.140><c> question</c><00:14:10.200><c> now</c><00:14:11.200><c> that</c>
+
+00:14:11.220 --> 00:14:11.230 align:start position:0%
+right hand side of question now that
+ 
+
+00:14:11.230 --> 00:14:12.780 align:start position:0%
+right hand side of question now that
+we've<00:14:11.500><c> got</c><00:14:11.650><c> the</c><00:14:11.770><c> right</c><00:14:11.950><c> hand</c><00:14:12.160><c> side</c><00:14:12.370><c> of</c><00:14:12.670><c> the</c>
+
+00:14:12.780 --> 00:14:12.790 align:start position:0%
+we've got the right hand side of the
+ 
+
+00:14:12.790 --> 00:14:15.420 align:start position:0%
+we've got the right hand side of the
+expression<00:14:12.960><c> we</c><00:14:13.960><c> can</c><00:14:13.990><c> store</c><00:14:14.560><c> it</c><00:14:14.680><c> in</c><00:14:14.710><c> the</c><00:14:14.980><c> a</c><00:14:15.010><c> for</c>
+
+00:14:15.420 --> 00:14:15.430 align:start position:0%
+expression we can store it in the a for
+ 
+
+00:14:15.430 --> 00:14:18.900 align:start position:0%
+expression we can store it in the a for
+using<00:14:16.270><c> the</c><00:14:16.390><c> store</c><00:14:16.630><c> word</c><00:14:16.810><c> instruction</c><00:14:17.430><c> or</c><00:14:18.430><c> the</c>
+
+00:14:18.900 --> 00:14:18.910 align:start position:0%
+using the store word instruction or the
+ 
+
+00:14:18.910 --> 00:14:22.320 align:start position:0%
+using the store word instruction or the
+calculated<00:14:19.510><c> value</c><00:14:19.840><c> in</c><00:14:19.990><c> t0</c><00:14:20.500><c> ended</c><00:14:21.130><c> with</c><00:14:21.970><c> word</c>
+
+00:14:22.320 --> 00:14:22.330 align:start position:0%
+calculated value in t0 ended with word
+ 
+
+00:14:22.330 --> 00:14:27.860 align:start position:0%
+calculated value in t0 ended with word
+really<00:14:24.870><c> now</c><00:14:25.870><c> let's</c><00:14:26.050><c> talk</c><00:14:26.200><c> about</c><00:14:26.260><c> C</c><00:14:26.860><c> struct</c>
+
+00:14:27.860 --> 00:14:27.870 align:start position:0%
+really now let's talk about C struct
+ 
+
+00:14:27.870 --> 00:14:31.740 align:start position:0%
+really now let's talk about C struct
+struct<00:14:28.870><c> your</c><00:14:29.740><c> comp</c><00:14:30.130><c> is</c><00:14:30.550><c> a</c><00:14:30.610><c> concept</c><00:14:31.210><c> in</c><00:14:31.420><c> the</c><00:14:31.570><c> C</c>
+
+00:14:31.740 --> 00:14:31.750 align:start position:0%
+struct your comp is a concept in the C
+ 
+
+00:14:31.750 --> 00:14:33.720 align:start position:0%
+struct your comp is a concept in the C
+programming<00:14:32.230><c> language</c><00:14:32.400><c> for</c><00:14:33.400><c> creating</c>
+
+00:14:33.720 --> 00:14:33.730 align:start position:0%
+programming language for creating
+ 
+
+00:14:33.730 --> 00:14:36.510 align:start position:0%
+programming language for creating
+complex<00:14:34.600><c> structures</c><00:14:35.380><c> here</c><00:14:36.250><c> we</c><00:14:36.370><c> have</c><00:14:36.490><c> a</c>
+
+00:14:36.510 --> 00:14:36.520 align:start position:0%
+complex structures here we have a
+ 
+
+00:14:36.520 --> 00:14:38.730 align:start position:0%
+complex structures here we have a
+relevant<00:14:36.820><c> very</c><00:14:37.180><c> simple</c><00:14:37.600><c> structure</c><00:14:38.050><c> which</c>
+
+00:14:38.730 --> 00:14:38.740 align:start position:0%
+relevant very simple structure which
+ 
+
+00:14:38.740 --> 00:14:42.290 align:start position:0%
+relevant very simple structure which
+contains<00:14:39.160><c> two</c><00:14:39.720><c> integer</c><00:14:40.720><c> types</c><00:14:41.130><c> and</c><00:14:42.130><c> be</c><00:14:42.220><c> a</c>
+
+00:14:42.290 --> 00:14:42.300 align:start position:0%
+contains two integer types and be a
+ 
+
+00:14:42.300 --> 00:14:44.730 align:start position:0%
+contains two integer types and be a
+fraction<00:14:43.300><c> type</c><00:14:43.570><c> to</c><00:14:43.810><c> store</c><00:14:43.870><c> a</c><00:14:44.050><c> numerator</c><00:14:44.530><c> and</c>
+
+00:14:44.730 --> 00:14:44.740 align:start position:0%
+fraction type to store a numerator and
+ 
+
+00:14:44.740 --> 00:14:48.300 align:start position:0%
+fraction type to store a numerator and
+the<00:14:44.860><c> denominator</c><00:14:46.140><c> there</c><00:14:47.140><c> a</c><00:14:47.170><c> variable</c><00:14:47.860><c> of</c><00:14:48.010><c> the</c>
+
+00:14:48.300 --> 00:14:48.310 align:start position:0%
+the denominator there a variable of the
+ 
+
+00:14:48.310 --> 00:14:53.930 align:start position:0%
+the denominator there a variable of the
+type<00:14:48.340><c> struct</c><00:14:48.970><c> fraction</c><00:14:49.480><c> is</c><00:14:49.990><c> a</c><00:14:50.290><c> fraction</c><00:14:50.620><c> at</c>
+
+00:14:53.930 --> 00:14:53.940 align:start position:0%
+ 
+ 
+
+00:14:53.940 --> 00:14:56.250 align:start position:0%
+ 
+somewhere<00:14:54.940><c> in</c><00:14:55.060><c> memory</c><00:14:55.240><c> storage</c><00:14:55.420><c> for</c><00:14:55.930><c> this</c><00:14:56.080><c> F</c>
+
+00:14:56.250 --> 00:14:56.260 align:start position:0%
+somewhere in memory storage for this F
+ 
+
+00:14:56.260 --> 00:15:00.680 align:start position:0%
+somewhere in memory storage for this F
+variable<00:14:56.800><c> is</c><00:14:56.920><c> allocated</c><00:14:57.780><c> the</c><00:14:58.780><c> address</c><00:14:59.230><c> of</c><00:14:59.380><c> f</c>
+
+00:15:00.680 --> 00:15:00.690 align:start position:0%
+variable is allocated the address of f
+ 
+
+00:15:00.690 --> 00:15:06.090 align:start position:0%
+variable is allocated the address of f
+ampersand<00:15:01.690><c> f</c><00:15:03.270><c> of</c><00:15:04.270><c> F</c><00:15:04.450><c> is</c><00:15:04.750><c> the</c><00:15:04.960><c> numerator</c><00:15:05.530><c> value</c>
+
+00:15:06.090 --> 00:15:06.100 align:start position:0%
+ampersand f of F is the numerator value
+ 
+
+00:15:06.100 --> 00:15:07.769 align:start position:0%
+ampersand f of F is the numerator value
+because<00:15:06.610><c> it</c><00:15:06.730><c> appears</c><00:15:07.089><c> first</c>
+
+00:15:07.769 --> 00:15:07.779 align:start position:0%
+because it appears first
+ 
+
+00:15:07.779 --> 00:15:11.129 align:start position:0%
+because it appears first
+in<00:15:07.870><c> the</c><00:15:08.050><c> struct</c><00:15:08.379><c> declaration</c><00:15:09.269><c> word</c><00:15:10.269><c> of</c><00:15:10.449><c> F</c><00:15:10.569><c> F</c><00:15:10.839><c> +</c>
+
+00:15:11.129 --> 00:15:11.139 align:start position:0%
+in the struct declaration word of F F +
+ 
+
+00:15:11.139 --> 00:15:14.309 align:start position:0%
+in the struct declaration word of F F +
+4<00:15:11.439><c> contains</c><00:15:12.249><c> the</c><00:15:12.519><c> denominator</c><00:15:13.089><c> again</c><00:15:14.019><c> this</c><00:15:14.170><c> is</c>
+
+00:15:14.309 --> 00:15:14.319 align:start position:0%
+4 contains the denominator again this is
+ 
+
+00:15:14.319 --> 00:15:19.410 align:start position:0%
+4 contains the denominator again this is
+because<00:15:14.680><c> the</c><00:15:14.889><c> integer</c><00:15:15.430><c> types</c><00:15:15.699><c> are</c><00:15:16.120><c> 4</c><00:15:16.899><c> bytes</c><00:15:18.420><c> so</c>
+
+00:15:19.410 --> 00:15:19.420 align:start position:0%
+because the integer types are 4 bytes so
+ 
+
+00:15:19.420 --> 00:15:22.199 align:start position:0%
+because the integer types are 4 bytes so
+they<00:15:19.569><c> perfectly</c><00:15:20.110><c> fit</c><00:15:20.230><c> into</c><00:15:20.800><c> the</c><00:15:21.009><c> word</c><00:15:21.220><c> aligned</c>
+
+00:15:22.199 --> 00:15:22.209 align:start position:0%
+they perfectly fit into the word aligned
+ 
+
+00:15:22.209 --> 00:15:27.860 align:start position:0%
+they perfectly fit into the word aligned
+memory<00:15:22.839><c> addresses</c><00:15:25.889><c> structures</c><00:15:26.889><c> in</c><00:15:27.220><c> memory</c>
+
+00:15:27.860 --> 00:15:27.870 align:start position:0%
+memory addresses structures in memory
+ 
+
+00:15:27.870 --> 00:15:31.679 align:start position:0%
+memory addresses structures in memory
+appear<00:15:28.870><c> or</c><00:15:29.079><c> are</c><00:15:29.529><c> laid</c><00:15:30.069><c> out</c><00:15:30.100><c> in</c><00:15:30.670><c> the</c><00:15:31.089><c> order</c><00:15:31.540><c> in</c>
+
+00:15:31.679 --> 00:15:31.689 align:start position:0%
+appear or are laid out in the order in
+ 
+
+00:15:31.689 --> 00:15:34.110 align:start position:0%
+appear or are laid out in the order in
+which<00:15:31.720><c> they</c><00:15:32.079><c> are</c><00:15:32.199><c> declared</c><00:15:32.559><c> greater</c><00:15:33.339><c> field</c><00:15:33.759><c> in</c>
+
+00:15:34.110 --> 00:15:34.120 align:start position:0%
+which they are declared greater field in
+ 
+
+00:15:34.120 --> 00:15:36.389 align:start position:0%
+which they are declared greater field in
+the<00:15:34.209><c> denominator</c><00:15:34.809><c> field</c><00:15:35.199><c> or</c><00:15:35.649><c> appear</c><00:15:36.069><c> in</c><00:15:36.220><c> this</c>
+
+00:15:36.389 --> 00:15:36.399 align:start position:0%
+the denominator field or appear in this
+ 
+
+00:15:36.399 --> 00:15:38.309 align:start position:0%
+the denominator field or appear in this
+order<00:15:36.730><c> numerator</c><00:15:37.300><c> and</c><00:15:37.449><c> then</c><00:15:37.600><c> denominators</c>
+
+00:15:38.309 --> 00:15:38.319 align:start position:0%
+order numerator and then denominators
+ 
+
+00:15:38.319 --> 00:15:41.579 align:start position:0%
+order numerator and then denominators
+remember<00:15:39.449><c> now</c><00:15:40.449><c> when</c><00:15:40.600><c> we</c><00:15:40.720><c> declare</c><00:15:41.439><c> this</c>
+
+00:15:41.579 --> 00:15:41.589 align:start position:0%
+remember now when we declare this
+ 
+
+00:15:41.589 --> 00:15:43.019 align:start position:0%
+remember now when we declare this
+variable<00:15:41.649><c> we</c><00:15:42.189><c> don't</c><00:15:42.370><c> know</c><00:15:42.459><c> where</c><00:15:42.699><c> in</c><00:15:42.879><c> memory</c>
+
+00:15:43.019 --> 00:15:43.029 align:start position:0%
+variable we don't know where in memory
+ 
+
+00:15:43.029 --> 00:15:45.840 align:start position:0%
+variable we don't know where in memory
+it<00:15:43.209><c> will</c><00:15:43.300><c> sit</c><00:15:43.600><c> but</c><00:15:43.839><c> we</c><00:15:43.990><c> do</c><00:15:44.139><c> know</c><00:15:44.350><c> that</c><00:15:44.759><c> when</c><00:15:45.759><c> we</c>
+
+00:15:45.840 --> 00:15:45.850 align:start position:0%
+it will sit but we do know that when we
+ 
+
+00:15:45.850 --> 00:15:51.030 align:start position:0%
+it will sit but we do know that when we
+access<00:15:46.800><c> the</c><00:15:47.800><c> F</c><00:15:48.600><c> variable</c><00:15:49.600><c> we</c><00:15:50.350><c> can</c><00:15:50.499><c> access</c><00:15:50.709><c> the</c>
+
+00:15:51.030 --> 00:15:51.040 align:start position:0%
+access the F variable we can access the
+ 
+
+00:15:51.040 --> 00:15:54.269 align:start position:0%
+access the F variable we can access the
+numerator<00:15:51.430><c> and</c><00:15:51.759><c> accessing</c><00:15:52.660><c> an</c><00:15:52.749><c> F</c><00:15:52.959><c> for</c><00:15:53.589><c> the</c>
+
+00:15:54.269 --> 00:15:54.279 align:start position:0%
+numerator and accessing an F for the
+ 
+
+00:15:54.279 --> 00:15:56.160 align:start position:0%
+numerator and accessing an F for the
+address<00:15:54.639><c> of</c><00:15:54.790><c> F</c><00:15:54.910><c> plus</c><00:15:55.059><c> or</c><00:15:55.420><c> can</c><00:15:55.689><c> access</c><00:15:56.019><c> the</c>
+
+00:15:56.160 --> 00:15:56.170 align:start position:0%
+address of F plus or can access the
+ 
+
+00:15:56.170 --> 00:15:59.790 align:start position:0%
+address of F plus or can access the
+denominator<00:15:58.290><c> we</c><00:15:59.290><c> don't</c><00:15:59.470><c> know</c><00:15:59.529><c> what</c><00:15:59.680><c> the</c>
+
+00:15:59.790 --> 00:15:59.800 align:start position:0%
+denominator we don't know what the
+ 
+
+00:15:59.800 --> 00:16:01.259 align:start position:0%
+denominator we don't know what the
+values<00:16:00.309><c> of</c><00:16:00.579><c> the</c><00:16:00.670><c> numerator</c><00:16:01.029><c> and</c><00:16:01.120><c> denominator</c>
+
+00:16:01.259 --> 00:16:01.269 align:start position:0%
+values of the numerator and denominator
+ 
+
+00:16:01.269 --> 00:16:03.360 align:start position:0%
+values of the numerator and denominator
+are<00:16:01.930><c> when</c><00:16:02.259><c> we</c><00:16:02.350><c> declare</c><00:16:02.649><c> in</c><00:16:02.769><c> structure</c><00:16:03.189><c> you</c>
+
+00:16:03.360 --> 00:16:03.370 align:start position:0%
+are when we declare in structure you
+ 
+
+00:16:03.370 --> 00:16:05.220 align:start position:0%
+are when we declare in structure you
+cannot<00:16:03.610><c> assume</c><00:16:03.999><c> by</c><00:16:04.329><c> default</c><00:16:04.779><c> that</c><00:16:04.990><c> C</c>
+
+00:16:05.220 --> 00:16:05.230 align:start position:0%
+cannot assume by default that C
+ 
+
+00:16:05.230 --> 00:16:08.220 align:start position:0%
+cannot assume by default that C
+initializers<00:16:05.980><c> variables</c><00:16:06.569><c> anything</c><00:16:07.569><c> so</c><00:16:08.139><c> we</c>
+
+00:16:08.220 --> 00:16:08.230 align:start position:0%
+initializers variables anything so we
+ 
+
+00:16:08.230 --> 00:16:09.470 align:start position:0%
+initializers variables anything so we
+need<00:16:08.350><c> to</c><00:16:08.439><c> declare</c><00:16:08.649><c> a</c><00:16:08.709><c> variable</c><00:16:08.769><c> is</c>
+
+00:16:09.470 --> 00:16:09.480 align:start position:0%
+need to declare a variable is
+ 
+
+00:16:09.480 --> 00:16:11.249 align:start position:0%
+need to declare a variable is
+uninitialized<00:16:10.480><c> and</c><00:16:10.839><c> you</c><00:16:10.899><c> don't</c><00:16:11.110><c> know</c>
+
+00:16:11.249 --> 00:16:11.259 align:start position:0%
+uninitialized and you don't know
+ 
+
+00:16:11.259 --> 00:16:15.960 align:start position:0%
+uninitialized and you don't know
+fabulous<00:16:12.540><c> find</c><00:16:13.540><c> a</c><00:16:13.660><c> value</c><00:16:13.839><c> to</c><00:16:14.589><c> a</c><00:16:14.620><c> structure</c><00:16:15.189><c> by</c>
+
+00:16:15.960 --> 00:16:15.970 align:start position:0%
+fabulous find a value to a structure by
+ 
+
+00:16:15.970 --> 00:16:19.110 align:start position:0%
+fabulous find a value to a structure by
+using<00:16:16.000><c> this</c><00:16:16.600><c> dot</c><00:16:16.930><c> notation</c><00:16:17.199><c> F</c><00:16:18.120><c> denominator</c>
+
+00:16:19.110 --> 00:16:19.120 align:start position:0%
+using this dot notation F denominator
+ 
+
+00:16:19.120 --> 00:16:22.740 align:start position:0%
+using this dot notation F denominator
+which<00:16:20.009><c> dominate</c><00:16:21.009><c> her</c><00:16:21.129><c> field</c><00:16:21.430><c> of</c><00:16:21.550><c> F</c><00:16:21.699><c> should</c><00:16:22.689><c> be</c>
+
+00:16:22.740 --> 00:16:22.750 align:start position:0%
+which dominate her field of F should be
+ 
+
+00:16:22.750 --> 00:16:25.740 align:start position:0%
+which dominate her field of F should be
+set<00:16:23.019><c> to</c><00:16:23.139><c> 20</c><00:16:23.879><c> we</c><00:16:24.879><c> can</c><00:16:25.029><c> initialize</c><00:16:25.360><c> the</c>
+
+00:16:25.740 --> 00:16:25.750 align:start position:0%
+set to 20 we can initialize the
+ 
+
+00:16:25.750 --> 00:16:32.490 align:start position:0%
+set to 20 we can initialize the
+numerator<00:16:26.110><c> for</c><00:16:26.410><c> example</c><00:16:26.949><c> to</c><00:16:27.189><c> 10</c><00:16:31.079><c> in</c><00:16:32.079><c> the</c><00:16:32.259><c> MIPS</c>
+
+00:16:32.490 --> 00:16:32.500 align:start position:0%
+numerator for example to 10 in the MIPS
+ 
+
+00:16:32.500 --> 00:16:34.619 align:start position:0%
+numerator for example to 10 in the MIPS
+assembly<00:16:32.680><c> this</c><00:16:33.550><c> would</c><00:16:33.790><c> be</c><00:16:33.879><c> equivalent</c><00:16:34.059><c> to</c>
+
+00:16:34.619 --> 00:16:34.629 align:start position:0%
+assembly this would be equivalent to
+ 
+
+00:16:34.629 --> 00:16:38.579 align:start position:0%
+assembly this would be equivalent to
+having<00:16:34.839><c> these</c><00:16:35.139><c> instructions</c><00:16:36.000><c> address</c><00:16:37.410><c> the</c><00:16:38.410><c> T</c>
+
+00:16:38.579 --> 00:16:38.589 align:start position:0%
+having these instructions address the T
+ 
+
+00:16:38.589 --> 00:16:41.519 align:start position:0%
+having these instructions address the T
+0<00:16:38.920><c> of</c><00:16:39.189><c> F</c><00:16:39.339><c> so</c><00:16:39.910><c> team</c><00:16:40.360><c> gia</c><00:16:40.569><c> was</c><00:16:40.779><c> the</c><00:16:40.899><c> bases</c><00:16:41.259><c> address</c>
+
+00:16:41.519 --> 00:16:41.529 align:start position:0%
+0 of F so team gia was the bases address
+ 
+
+00:16:41.529 --> 00:16:48.360 align:start position:0%
+0 of F so team gia was the bases address
+of<00:16:41.709><c> that</c><00:16:44.699><c> initialize</c><00:16:45.699><c> a</c><00:16:45.730><c> register</c><00:16:46.559><c> t1</c><00:16:47.559><c> to</c><00:16:48.220><c> be</c>
+
+00:16:48.360 --> 00:16:48.370 align:start position:0%
+of that initialize a register t1 to be
+ 
+
+00:16:48.370 --> 00:16:55.679 align:start position:0%
+of that initialize a register t1 to be
+20<00:16:48.759><c> and</c><00:16:49.949><c> then</c><00:16:51.029><c> store</c><00:16:53.069><c> value</c><00:16:54.069><c> of</c><00:16:54.250><c> 20</c><00:16:54.689><c> thus</c>
+
+00:16:55.679 --> 00:16:55.689 align:start position:0%
+20 and then store value of 20 thus
+ 
+
+00:16:55.689 --> 00:16:57.990 align:start position:0%
+20 and then store value of 20 thus
+initializing<00:16:56.679><c> the</c><00:16:56.860><c> denominator</c><00:16:57.459><c> field</c><00:16:57.819><c> of</c>
+
+00:16:57.990 --> 00:16:58.000 align:start position:0%
+initializing the denominator field of
+ 
+
+00:16:58.000 --> 00:17:03.600 align:start position:0%
+initializing the denominator field of
+that<00:16:58.149><c> to</c><00:16:58.990><c> be</c><00:16:59.139><c> 20</c><00:17:01.110><c> similarly</c><00:17:02.399><c> initialize</c><00:17:03.399><c> the</c>
+
+00:17:03.600 --> 00:17:03.610 align:start position:0%
+that to be 20 similarly initialize the
+ 
+
+00:17:03.610 --> 00:17:07.169 align:start position:0%
+that to be 20 similarly initialize the
+numerator<00:17:03.999><c> field</c><00:17:04.299><c> to</c><00:17:04.480><c> 10th</c><00:17:04.799><c> we</c><00:17:05.799><c> put</c><00:17:06.459><c> a</c><00:17:06.490><c> 10</c><00:17:06.819><c> into</c>
+
+00:17:07.169 --> 00:17:07.179 align:start position:0%
+numerator field to 10th we put a 10 into
+ 
+
+00:17:07.179 --> 00:17:09.949 align:start position:0%
+numerator field to 10th we put a 10 into
+a<00:17:07.209><c> register</c><00:17:07.480><c> and</c><00:17:08.079><c> then</c><00:17:08.890><c> we</c><00:17:09.039><c> store</c><00:17:09.399><c> the</c>
+
+00:17:09.949 --> 00:17:09.959 align:start position:0%
+a register and then we store the
+ 
+
+00:17:09.959 --> 00:17:14.399 align:start position:0%
+a register and then we store the
+register<00:17:10.959><c> containing</c><00:17:11.679><c> the</c><00:17:11.919><c> value</c><00:17:12.220><c> 10</c><00:17:13.409><c> into</c>
+
+00:17:14.399 --> 00:17:14.409 align:start position:0%
+register containing the value 10 into
+ 
+
+00:17:14.409 --> 00:17:18.780 align:start position:0%
+register containing the value 10 into
+the<00:17:15.449><c> offset</c><00:17:16.449><c> 0</c><00:17:16.899><c> from</c><00:17:17.770><c> the</c>
+
+00:17:18.780 --> 00:17:18.790 align:start position:0%
+the offset 0 from the
+ 
+
+00:17:18.790 --> 00:17:22.620 align:start position:0%
+the offset 0 from the
+dress<00:17:19.030><c> of</c><00:17:19.240><c> F</c><00:17:20.190><c> here</c><00:17:21.190><c> we</c><00:17:21.340><c> have</c><00:17:21.520><c> a</c><00:17:21.550><c> five</c><00:17:22.180><c> element</c>
+
+00:17:22.620 --> 00:17:22.630 align:start position:0%
+dress of F here we have a five element
+ 
+
+00:17:22.630 --> 00:17:28.730 align:start position:0%
+dress of F here we have a five element
+array<00:17:22.840><c> from</c><00:17:23.110><c> the</c><00:17:23.230><c> floor</c><00:17:23.440><c> and</c><00:17:23.950><c> an</c><00:17:24.430><c> instant</c>
+
+00:17:28.730 --> 00:17:28.740 align:start position:0%
+ 
+ 
+
+00:17:28.740 --> 00:17:31.800 align:start position:0%
+ 
+Tyler<00:17:29.740><c> put</c><00:17:29.920><c> lay</c><00:17:30.100><c> out</c><00:17:30.250><c> the</c><00:17:30.460><c> array</c><00:17:30.790><c> before</c><00:17:31.480><c> or</c>
+
+00:17:31.800 --> 00:17:31.810 align:start position:0%
+Tyler put lay out the array before or
+ 
+
+00:17:31.810 --> 00:17:35.760 align:start position:0%
+Tyler put lay out the array before or
+after<00:17:32.260><c> the</c><00:17:32.830><c> struct</c><00:17:34.320><c> here</c><00:17:35.320><c> we</c><00:17:35.470><c> showed</c><00:17:35.650><c> the</c>
+
+00:17:35.760 --> 00:17:35.770 align:start position:0%
+after the struct here we showed the
+ 
+
+00:17:35.770 --> 00:17:38.100 align:start position:0%
+after the struct here we showed the
+array<00:17:35.980><c> coming</c><00:17:36.370><c> before</c><00:17:36.520><c> the</c><00:17:36.850><c> struct</c><00:17:37.150><c> the</c><00:17:37.900><c> array</c>
+
+00:17:38.100 --> 00:17:38.110 align:start position:0%
+array coming before the struct the array
+ 
+
+00:17:38.110 --> 00:17:42.120 align:start position:0%
+array coming before the struct the array
+starts<00:17:38.500><c> at</c><00:17:38.620><c> address</c><00:17:38.980><c> 0</c><00:17:39.820><c> X</c><00:17:39.970><c> 1</c><00:17:40.390><c> 0</c><00:17:40.630><c> 0</c><00:17:40.870><c> 1</c><00:17:41.110><c> 0</c><00:17:41.380><c> 0</c><00:17:41.620><c> 0</c><00:17:42.040><c> 0</c>
+
+00:17:42.120 --> 00:17:42.130 align:start position:0%
+starts at address 0 X 1 0 0 1 0 0 0 0
+ 
+
+00:17:42.130 --> 00:17:48.120 align:start position:0%
+starts at address 0 X 1 0 0 1 0 0 0 0
+and<00:17:43.170><c> the</c><00:17:44.170><c> struct</c><00:17:44.590><c> starts</c><00:17:44.980><c> at</c><00:17:45.310><c> address</c><00:17:46.440><c> mu</c><00:17:47.440><c> 1</c><00:17:47.800><c> 0</c>
+
+00:17:48.120 --> 00:17:48.130 align:start position:0%
+and the struct starts at address mu 1 0
+ 
+
+00:17:48.130 --> 00:17:53.670 align:start position:0%
+and the struct starts at address mu 1 0
+0<00:17:48.490><c> 1</c><00:17:48.820><c> 0</c><00:17:49.510><c> 0</c><00:17:49.540><c> 1</c><00:17:49.870><c> for</c><00:17:51.450><c> the</c><00:17:52.450><c> first</c><00:17:52.690><c> 5</c><00:17:52.930><c> words</c><00:17:53.170><c> starting</c>
+
+00:17:53.670 --> 00:17:53.680 align:start position:0%
+0 1 0 0 1 for the first 5 words starting
+ 
+
+00:17:53.680 --> 00:17:58.350 align:start position:0%
+0 1 0 0 1 for the first 5 words starting
+at<00:17:53.980><c> the</c><00:17:54.220><c> address</c><00:17:54.850><c> 1</c><00:17:55.090><c> 0</c><00:17:55.360><c> 0</c><00:17:55.600><c> 1</c><00:17:55.870><c> 0</c><00:17:55.930><c> 0</c><00:17:56.260><c> 0</c><00:17:56.530><c> 0</c><00:17:57.030><c> belong</c><00:17:58.030><c> to</c>
+
+00:17:58.350 --> 00:17:58.360 align:start position:0%
+at the address 1 0 0 1 0 0 0 0 belong to
+ 
+
+00:17:58.360 --> 00:18:02.370 align:start position:0%
+at the address 1 0 0 1 0 0 0 0 belong to
+the<00:17:58.990><c> array</c><00:17:59.410><c> a</c><00:17:59.440><c> and</c><00:18:00.360><c> the</c><00:18:01.360><c> next</c><00:18:01.660><c> two</c><00:18:01.930><c> words</c><00:18:02.110><c> in</c>
+
+00:18:02.370 --> 00:18:02.380 align:start position:0%
+the array a and the next two words in
+ 
+
+00:18:02.380 --> 00:18:06.180 align:start position:0%
+the array a and the next two words in
+memory<00:18:02.710><c> belong</c><00:18:03.040><c> to</c><00:18:03.370><c> the</c><00:18:03.580><c> struct</c><00:18:03.910><c> path</c><00:18:05.190><c> now</c>
+
+00:18:06.180 --> 00:18:06.190 align:start position:0%
+memory belong to the struct path now
+ 
+
+00:18:06.190 --> 00:18:08.580 align:start position:0%
+memory belong to the struct path now
+let's<00:18:06.430><c> see</c><00:18:06.640><c> how</c><00:18:06.910><c> the</c><00:18:06.970><c> compiler</c><00:18:07.590><c> would</c>
+
+00:18:08.580 --> 00:18:08.590 align:start position:0%
+let's see how the compiler would
+ 
+
+00:18:08.590 --> 00:18:10.620 align:start position:0%
+let's see how the compiler would
+generate<00:18:08.950><c> assembly</c><00:18:09.730><c> code</c><00:18:09.940><c> for</c><00:18:10.420><c> the</c>
+
+00:18:10.620 --> 00:18:10.630 align:start position:0%
+generate assembly code for the
+ 
+
+00:18:10.630 --> 00:18:13.140 align:start position:0%
+generate assembly code for the
+instructions<00:18:11.370><c> initializing</c><00:18:12.370><c> the</c><00:18:12.910><c> array</c><00:18:13.120><c> a</c>
+
+00:18:13.140 --> 00:18:13.150 align:start position:0%
+instructions initializing the array a
+ 
+
+00:18:13.150 --> 00:18:17.160 align:start position:0%
+instructions initializing the array a
+and<00:18:13.720><c> the</c><00:18:13.960><c> struct</c><00:18:14.290><c> app</c><00:18:15.690><c> here</c><00:18:16.690><c> I've</c><00:18:16.840><c> rewritten</c>
+
+00:18:17.160 --> 00:18:17.170 align:start position:0%
+and the struct app here I've rewritten
+ 
+
+00:18:17.170 --> 00:18:19.860 align:start position:0%
+and the struct app here I've rewritten
+the<00:18:17.620><c> previous</c><00:18:18.040><c> page</c><00:18:18.720><c> removing</c><00:18:19.720><c> the</c>
+
+00:18:19.860 --> 00:18:19.870 align:start position:0%
+the previous page removing the
+ 
+
+00:18:19.870 --> 00:18:21.750 align:start position:0%
+the previous page removing the
+Declaration<00:18:20.470><c> of</c><00:18:20.560><c> the</c><00:18:20.620><c> array</c><00:18:21.010><c> and</c><00:18:21.280><c> the</c><00:18:21.400><c> struct</c>
+
+00:18:21.750 --> 00:18:21.760 align:start position:0%
+Declaration of the array and the struct
+ 
+
+00:18:21.760 --> 00:18:25.200 align:start position:0%
+Declaration of the array and the struct
+or<00:18:22.560><c> and</c><00:18:23.560><c> compressing</c><00:18:24.130><c> the</c><00:18:24.340><c> initialization</c><00:18:24.760><c> of</c>
+
+00:18:25.200 --> 00:18:25.210 align:start position:0%
+or and compressing the initialization of
+ 
+
+00:18:25.210 --> 00:18:28.770 align:start position:0%
+or and compressing the initialization of
+this<00:18:25.360><c> for</c><00:18:26.230><c> the</c><00:18:26.320><c> first</c><00:18:26.940><c> 5</c><00:18:27.940><c> lines</c><00:18:27.970><c> of</c><00:18:28.660><c> the</c>
+
+00:18:28.770 --> 00:18:28.780 align:start position:0%
+this for the first 5 lines of the
+ 
+
+00:18:28.780 --> 00:18:33.030 align:start position:0%
+this for the first 5 lines of the
+assembly<00:18:29.260><c> code</c><00:18:29.440><c> here</c><00:18:29.740><c> correspond</c><00:18:30.310><c> with</c><00:18:30.610><c> the</c><00:18:32.040><c> F</c>
+
+00:18:33.030 --> 00:18:33.040 align:start position:0%
+assembly code here correspond with the F
+ 
+
+00:18:33.040 --> 00:18:35.850 align:start position:0%
+assembly code here correspond with the F
+listed<00:18:33.970><c> Dominator</c><00:18:34.480><c> field</c><00:18:34.780><c> of</c><00:18:34.930><c> 20</c><00:18:35.320><c> and</c><00:18:35.560><c> the</c>
+
+00:18:35.850 --> 00:18:35.860 align:start position:0%
+listed Dominator field of 20 and the
+ 
+
+00:18:35.860 --> 00:18:38.160 align:start position:0%
+listed Dominator field of 20 and the
+numerator<00:18:36.160><c> fields</c><00:18:36.610><c> into</c><00:18:36.850><c> 10</c><00:18:37.170><c> first</c>
+
+00:18:38.160 --> 00:18:38.170 align:start position:0%
+numerator fields into 10 first
+ 
+
+00:18:38.170 --> 00:18:40.260 align:start position:0%
+numerator fields into 10 first
+instruction<00:18:38.830><c> loads</c><00:18:39.190><c> the</c><00:18:39.400><c> address</c><00:18:39.700><c> of</c><00:18:39.850><c> F</c><00:18:40.030><c> into</c>
+
+00:18:40.260 --> 00:18:40.270 align:start position:0%
+instruction loads the address of F into
+ 
+
+00:18:40.270 --> 00:18:43.580 align:start position:0%
+instruction loads the address of F into
+a<00:18:40.390><c> register</c><00:18:41.280><c> second</c><00:18:42.280><c> instruction</c>
+
+00:18:43.580 --> 00:18:43.590 align:start position:0%
+a register second instruction
+ 
+
+00:18:43.590 --> 00:18:46.110 align:start position:0%
+a register second instruction
+initializes<00:18:44.590><c> the</c><00:18:44.650><c> register</c><00:18:45.190><c> to</c><00:18:45.400><c> the</c><00:18:45.430><c> value</c><00:18:45.760><c> 20</c>
+
+00:18:46.110 --> 00:18:46.120 align:start position:0%
+initializes the register to the value 20
+ 
+
+00:18:46.120 --> 00:18:48.480 align:start position:0%
+initializes the register to the value 20
+and<00:18:46.450><c> then</c><00:18:46.840><c> the</c><00:18:47.440><c> following</c><00:18:47.800><c> instructions</c>
+
+00:18:48.480 --> 00:18:48.490 align:start position:0%
+and then the following instructions
+ 
+
+00:18:48.490 --> 00:18:52.290 align:start position:0%
+and then the following instructions
+stores<00:18:49.240><c> that</c><00:18:49.510><c> value</c><00:18:49.930><c> 20</c><00:18:50.290><c> into</c><00:18:51.100><c> the</c><00:18:51.460><c> location</c>
+
+00:18:52.290 --> 00:18:52.300 align:start position:0%
+stores that value 20 into the location
+ 
+
+00:18:52.300 --> 00:18:54.240 align:start position:0%
+stores that value 20 into the location
+of<00:18:52.480><c> the</c><00:18:52.630><c> denominator</c><00:18:53.200><c> field</c><00:18:53.590><c> and</c><00:18:53.860><c> the</c><00:18:53.920><c> struct</c>
+
+00:18:54.240 --> 00:18:54.250 align:start position:0%
+of the denominator field and the struct
+ 
+
+00:18:54.250 --> 00:18:56.640 align:start position:0%
+of the denominator field and the struct
+which<00:18:54.940><c> is</c><00:18:55.120><c> 4</c><00:18:55.420><c> bytes</c><00:18:55.690><c> offset</c><00:18:56.290><c> from</c><00:18:56.470><c> the</c>
+
+00:18:56.640 --> 00:18:56.650 align:start position:0%
+which is 4 bytes offset from the
+ 
+
+00:18:56.650 --> 00:19:00.300 align:start position:0%
+which is 4 bytes offset from the
+beginning<00:18:57.040><c> of</c><00:18:57.190><c> the</c><00:18:57.310><c> structure</c><00:18:59.010><c> the</c><00:19:00.010><c> next</c>
+
+00:19:00.300 --> 00:19:00.310 align:start position:0%
+beginning of the structure the next
+ 
+
+00:19:00.310 --> 00:19:02.850 align:start position:0%
+beginning of the structure the next
+instruction<00:19:00.940><c> initializes</c><00:19:01.690><c> the</c><00:19:01.930><c> t1</c><00:19:02.380><c> register</c>
+
+00:19:02.850 --> 00:19:02.860 align:start position:0%
+instruction initializes the t1 register
+ 
+
+00:19:02.860 --> 00:19:06.480 align:start position:0%
+instruction initializes the t1 register
+to<00:19:03.040><c> 10</c><00:19:03.280><c> and</c><00:19:03.670><c> then</c><00:19:04.570><c> store</c><00:19:05.290><c> word</c><00:19:05.590><c> of</c><00:19:06.100><c> that</c>
+
+00:19:06.480 --> 00:19:06.490 align:start position:0%
+to 10 and then store word of that
+ 
+
+00:19:06.490 --> 00:19:08.490 align:start position:0%
+to 10 and then store word of that
+register<00:19:06.700><c> of</c><00:19:07.180><c> turn</c><00:19:07.390><c> out</c><00:19:07.600><c> to</c><00:19:07.840><c> the</c><00:19:07.870><c> 0</c><00:19:08.260><c> offset</c>
+
+00:19:08.490 --> 00:19:08.500 align:start position:0%
+register of turn out to the 0 offset
+ 
+
+00:19:08.500 --> 00:19:10.650 align:start position:0%
+register of turn out to the 0 offset
+from<00:19:08.980><c> F</c><00:19:09.340><c> finish</c><00:19:09.790><c> life</c><00:19:10.000><c> is</c><00:19:10.180><c> the</c><00:19:10.360><c> numerator</c>
+
+00:19:10.650 --> 00:19:10.660 align:start position:0%
+from F finish life is the numerator
+ 
+
+00:19:10.660 --> 00:19:14.340 align:start position:0%
+from F finish life is the numerator
+fields<00:19:11.290><c> to</c><00:19:11.440><c> 10</c><00:19:12.720><c> following</c><00:19:13.720><c> instructions</c>
+
+00:19:14.340 --> 00:19:14.350 align:start position:0%
+fields to 10 following instructions
+ 
+
+00:19:14.350 --> 00:19:16.110 align:start position:0%
+fields to 10 following instructions
+shown<00:19:14.620><c> in</c><00:19:14.830><c> blue</c><00:19:15.100><c> are</c><00:19:15.370><c> the</c><00:19:15.400><c> same</c><00:19:15.730><c> code</c><00:19:15.970><c> from</c>
+
+00:19:16.110 --> 00:19:16.120 align:start position:0%
+shown in blue are the same code from
+ 
+
+00:19:16.120 --> 00:19:19.380 align:start position:0%
+shown in blue are the same code from
+before<00:19:16.180><c> that</c><00:19:16.540><c> summation</c><00:19:17.230><c> of</c><00:19:17.680><c> a</c><00:19:17.950><c> 0</c><00:19:18.640><c> through</c><00:19:18.940><c> a</c><00:19:18.970><c> 3</c>
+
+00:19:19.380 --> 00:19:19.390 align:start position:0%
+before that summation of a 0 through a 3
+ 
+
+00:19:19.390 --> 00:19:22.470 align:start position:0%
+before that summation of a 0 through a 3
+storing<00:19:19.900><c> in</c><00:19:20.020><c> a</c><00:19:20.140><c> a</c><00:19:20.170><c> for</c><00:19:20.640><c> the</c><00:19:21.640><c> first</c><00:19:21.910><c> step</c><00:19:22.120><c> is</c><00:19:22.330><c> to</c>
+
+00:19:22.470 --> 00:19:22.480 align:start position:0%
+storing in a a for the first step is to
+ 
+
+00:19:22.480 --> 00:19:23.970 align:start position:0%
+storing in a a for the first step is to
+load<00:19:22.690><c> the</c><00:19:22.840><c> address</c><00:19:23.110><c> of</c><00:19:23.290><c> a</c><00:19:23.410><c> into</c><00:19:23.740><c> a</c><00:19:23.770><c> register</c>
+
+00:19:23.970 --> 00:19:23.980 align:start position:0%
+load the address of a into a register
+ 
+
+00:19:23.980 --> 00:19:27.380 align:start position:0%
+load the address of a into a register
+and<00:19:24.730><c> then</c><00:19:25.030><c> load</c><00:19:25.240><c> the</c><00:19:25.390><c> values</c><00:19:25.750><c> of</c><00:19:25.930><c> a</c><00:19:26.020><c> 0</c><00:19:26.050><c> and</c><00:19:26.590><c> a</c><00:19:26.680><c> 1</c>
+
+00:19:27.380 --> 00:19:27.390 align:start position:0%
+and then load the values of a 0 and a 1
+ 
+
+00:19:27.390 --> 00:19:31.670 align:start position:0%
+and then load the values of a 0 and a 1
+after<00:19:28.390><c> that</c><00:19:29.050><c> add</c><00:19:29.440><c> the</c><00:19:29.710><c> values</c><00:19:30.430><c> together</c>
+
+00:19:31.670 --> 00:19:31.680 align:start position:0%
+after that add the values together
+ 
+
+00:19:31.680 --> 00:19:35.510 align:start position:0%
+after that add the values together
+load<00:19:32.510><c> unload</c><00:19:33.510><c> in</c><00:19:33.690><c> the</c><00:19:34.140><c> value</c><00:19:34.410><c> of</c><00:19:34.530><c> a</c><00:19:34.650><c> 2</c><00:19:34.710><c> into</c><00:19:35.490><c> a</c>
+
+00:19:35.510 --> 00:19:35.520 align:start position:0%
+load unload in the value of a 2 into a
+ 
+
+00:19:35.520 --> 00:19:38.360 align:start position:0%
+load unload in the value of a 2 into a
+register<00:19:36.060><c> and</c><00:19:36.090><c> add</c><00:19:36.390><c> that</c><00:19:36.600><c> into</c><00:19:36.840><c> the</c><00:19:37.070><c> 0</c><00:19:38.070><c> that</c>
+
+00:19:38.360 --> 00:19:38.370 align:start position:0%
+register and add that into the 0 that
+ 
+
+00:19:38.370 --> 00:19:42.530 align:start position:0%
+register and add that into the 0 that
+were<00:19:38.490><c> keeping</c><00:19:38.880><c> Misawa</c><00:19:39.270><c> have</c><00:19:41.060><c> load</c><00:19:42.060><c> in</c><00:19:42.270><c> the</c>
+
+00:19:42.530 --> 00:19:42.540 align:start position:0%
+were keeping Misawa have load in the
+ 
+
+00:19:42.540 --> 00:19:46.790 align:start position:0%
+were keeping Misawa have load in the
+value<00:19:42.870><c> of</c><00:19:42.930><c> a</c><00:19:43.140><c> 3</c><00:19:43.670><c> into</c><00:19:44.670><c> a</c><00:19:44.820><c> register</c><00:19:45.650><c> you</c><00:19:46.650><c> know</c><00:19:46.710><c> I</c>
+
+00:19:46.790 --> 00:19:46.800 align:start position:0%
+value of a 3 into a register you know I
+ 
+
+00:19:46.800 --> 00:19:50.450 align:start position:0%
+value of a 3 into a register you know I
+remember<00:19:46.890><c> a</c><00:19:47.250><c> 3</c><00:19:47.610><c> is</c><00:19:47.850><c> 3</c><00:19:48.600><c> times</c><00:19:49.200><c> the</c><00:19:49.740><c> element</c><00:19:50.310><c> size</c>
+
+00:19:50.450 --> 00:19:50.460 align:start position:0%
+remember a 3 is 3 times the element size
+ 
+
+00:19:50.460 --> 00:19:53.780 align:start position:0%
+remember a 3 is 3 times the element size
+of<00:19:50.730><c> the</c><00:19:50.850><c> array</c><00:19:51.150><c> which</c><00:19:51.660><c> is</c><00:19:51.720><c> 4</c><00:19:52.200><c> bytes</c><00:19:52.790><c> offset</c>
+
+00:19:53.780 --> 00:19:53.790 align:start position:0%
+of the array which is 4 bytes offset
+ 
+
+00:19:53.790 --> 00:19:56.840 align:start position:0%
+of the array which is 4 bytes offset
+from<00:19:53.910><c> the</c><00:19:54.090><c> beginning</c><00:19:54.950><c> add</c><00:19:55.950><c> the</c><00:19:56.250><c> value</c><00:19:56.580><c> that</c><00:19:56.730><c> we</c>
+
+00:19:56.840 --> 00:19:56.850 align:start position:0%
+from the beginning add the value that we
+ 
+
+00:19:56.850 --> 00:19:59.810 align:start position:0%
+from the beginning add the value that we
+just<00:19:56.880><c> read</c><00:19:57.330><c> from</c><00:19:57.870><c> a</c><00:19:58.230><c> 3</c><00:19:58.860><c> into</c><00:19:59.280><c> the</c><00:19:59.400><c> container</c>
+
+00:19:59.810 --> 00:19:59.820 align:start position:0%
+just read from a 3 into the container
+ 
+
+00:19:59.820 --> 00:20:01.730 align:start position:0%
+just read from a 3 into the container
+register<00:20:00.390><c> and</c><00:20:00.570><c> we've</c><00:20:00.720><c> got</c><00:20:00.900><c> the</c><00:20:01.080><c> summation</c><00:20:01.560><c> of</c>
+
+00:20:01.730 --> 00:20:01.740 align:start position:0%
+register and we've got the summation of
+ 
+
+00:20:01.740 --> 00:20:04.910 align:start position:0%
+register and we've got the summation of
+the<00:20:02.130><c> 4</c><00:20:02.370><c> elements</c><00:20:02.610><c> of</c><00:20:02.970><c> the</c><00:20:03.030><c> array</c><00:20:03.680><c> store</c><00:20:04.680><c> that</c>
+
+00:20:04.910 --> 00:20:04.920 align:start position:0%
+the 4 elements of the array store that
+ 
+
+00:20:04.920 --> 00:20:07.220 align:start position:0%
+the 4 elements of the array store that
+value<00:20:04.950><c> out</c><00:20:05.340><c> to</c><00:20:05.640><c> the</c><00:20:05.760><c> 16</c><00:20:06.240><c> byte</c><00:20:06.480><c> offset</c><00:20:06.690><c> from</c><00:20:07.110><c> the</c>
+
+00:20:07.220 --> 00:20:07.230 align:start position:0%
+value out to the 16 byte offset from the
+ 
+
+00:20:07.230 --> 00:20:09.050 align:start position:0%
+value out to the 16 byte offset from the
+beginning<00:20:07.530><c> of</c><00:20:07.710><c> the</c><00:20:07.830><c> array</c><00:20:08.070><c> which</c><00:20:08.370><c> corresponds</c>
+
+00:20:09.050 --> 00:20:09.060 align:start position:0%
+beginning of the array which corresponds
+ 
+
+00:20:09.060 --> 00:20:14.540 align:start position:0%
+beginning of the array which corresponds
+with<00:20:09.090><c> the</c><00:20:09.360><c> 4th</c><00:20:09.890><c> index</c><00:20:10.890><c> or</c><00:20:11.220><c> rather</c><00:20:11.610><c> a</c><00:20:11.940><c> 4</c><00:20:13.550><c> that's</c>
+
+00:20:14.540 --> 00:20:14.550 align:start position:0%
+with the 4th index or rather a 4 that's
+ 
+
+00:20:14.550 --> 00:20:16.790 align:start position:0%
+with the 4th index or rather a 4 that's
+everything<00:20:15.090><c> today</c><00:20:15.330><c> I</c><00:20:15.600><c> hope</c><00:20:16.380><c> this</c><00:20:16.590><c> has</c><00:20:16.770><c> been</c>
+
+00:20:16.790 --> 00:20:16.800 align:start position:0%
+everything today I hope this has been
+ 
+
+00:20:16.800 --> 00:20:19.640 align:start position:0%
+everything today I hope this has been
+illuminating
+

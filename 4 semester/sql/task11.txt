@@ -1,0 +1,24 @@
+select OrderID, Max(select SUM(UnitPrice * Quantity) as MaxAmount from [Order Details] group by OrderID) from [Order Details] group by OrderID
+
+select OrderID,SUM(UnitPrice * Quantity) as MaxAmount from [Order Details] group by OrderID having 
+
+select * from Customers
+select * from [Order Details]
+select * from Orders
+select * from Products
+
+
+SELECT * 
+FROM orders a
+WHERE purch_amt >
+    (SELECT AVG(purch_amt) FROM orders b 
+     WHERE b.customer_id = a.customer_id);
+
+select CustomerID,ContactName CustomerName from Customers where CustomerID in 
+(select CustomerID from Orders where OrderID in 
+(select OrderID,SUM(UnitPrice * Quantity) as MaxAmount from [Order Details] group by OrderID having Max(SUM(UnitPrice * Quantity)))
+
+
+
+Select A.CustomerID, UnitPrice * Quantity as HighestAmount from (Select Orders.OrderID,Customers.CustomerID from Orders Inner join Customers on Customers.CustomerID= Orders.CustomerID)A inner join (Select Orders.OrderID, UnitPrice, Quantity from Orders 
+inner join [Order Details] on Orders.OrderID= [Order Details].OrderID where UnitPrice*Quantity in (select max(UnitPrice*Quantity)from [Order Details]))B ON A.OrderID = B.OrderID
