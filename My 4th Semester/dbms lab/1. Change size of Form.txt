@@ -1,0 +1,192 @@
+1. Change size of Form:
+Go to StartPosition
+
+2. Change Name of Window Form:
+Go to text
+
+3. Change Size of label:
+Go to Font
+
+4. Change Name Property:
+Go to Design and change Name
+
+5. To get Value from InputText
+write textBox1.Text
+
+6. Display Alert Message
+MessageBox.Show()
+
+7. To Not show Lable (visibility):
+Go to Visible
+label3.Visible=true
+
+
+
+
+8. listItem
+Go to items and write line by line
+
+9. Make checkbox
+Go to SelectionMode
+
+10. Add items in listItems by dynamically
+Write code "FruitslistBox.Items.Add()"
+
+11. Clear text in textField
+textBox1.clear()
+
+12. To come focus on textField
+textBox1.Focus()
+
+13. To count number
+int count= FruitslistBox.Items.Count;
+MessageBox.Show(count.toString())
+
+14. Sort ListItems
+FruitslistItem.Sorted=true
+
+15. Remove one item from itemsList by Name
+FruitslistBox.Items.Remove(FruitslistBox.SelectedItem)
+
+16. Remove one item from itemsList by Index
+FruitslistBox.Items.RemoveAt(FruitslistBox.SelectedIndex)
+
+17. Remove all items from itemsList
+FruitslistBox.Items.Clear()
+
+
+
+Combo Box
+18. Add items
+go to items
+
+19. Go to DropDownStyle
+Simple: Just justify by default
+DropDown: You can edit
+DropDownList: You cannot edit
+
+20. AutoCompleteMode:SuggestAppent ; AutoCompleteSource:listItems
+go to AutoCompleteMode and set suggest
+
+21.Add items in dropDownList
+HobbiesComboBox.Items.Add(textBox1.Text)
+
+22. Print selectitem on another text
+label3.Text=HobbiesComboBox.SelectedItem.toString();
+label3.Visible=true;
+
+23. If you want to not add items who are already added in dropDownList
+HobbiesComboBox.Items.Contains(textBox1.Text)
+
+
+
+LinkList
+24. Write linklist
+using System.Diagnostics;
+Process.Start("https://www.codingshub.com")
+OR
+Form2 f2=new Form2();
+f2.Show(); 
+
+25. Remove underLined from linkitem
+Write code in Form1_Load method
+this.MyLink.LinkBehavior=System.Windows.Forms.LinkBehavior.NeverUnderline;
+
+
+
+Passing Data from OneForm to another
+
+26. GO another input by using tab
+go to tabIndex and change keep value from 0,1,2
+
+27. Passing Data
+Form1:
+        public static string firstInput;
+ private void button1_Click(object sender, EventArgs e)
+        {
+            firstInput= textBox1.Text;
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
+
+Form2:
+ private void Form2_Load(object sender, EventArgs e)
+        {
+
+            label2.Text=Form1.firstInput;
+        }
+
+
+
+
+Radio Button:
+
+28. if(radioButton1.Checked==true){
+Message.Show("The name is "+ radioButton1.Text);
+}
+
+29. Container
+GroupBox
+
+30. Change Size of radio or other components
+go to AutoSize and do false
+
+31. Align Text
+go to TextAlign 
+
+32.Checked List
+
+string Text1=" ";
+private void SamsungChk_(){
+if(SamsungChk.Checked == true){
+Text1=SamsungChk.Text;
+}
+else{
+Text1="";
+}
+}
+
+
+
+
+
+CheckListBox:
+
+
+
+Error Provider COntrol:
+Click inputList and go to current and click leave(when you will leave input)
+
+private void textBox1_Leave(){
+if(string.IsNullOrEmpty(textBox1.Text)){
+MessageBox.Show("Please enter value")
+}
+}
+
+34. Check whether input is null or not.
+
+if(string.IsNullOrEmpty(textBox1.Text)){
+textBox1.Focus();
+MessageBox.Show("Please fill the input ")
+}
+
+ErrorProvider (Please watch video to display message in Error)
+First put errorprovider from toolbox in screen and the display name as below
+
+if(string.IsNullOrEmpty(textBox1.Text)){
+errorProvider2.SetError(this.textBox2,"Please fill the Age !! ");}
+else{
+errorProvider2.Clear();
+}
+
+
+
+
+
+
+
+
+
+
+
+
